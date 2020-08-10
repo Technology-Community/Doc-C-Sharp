@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="dslienketkep">
+</Property><Property Name="Solution File" Value="E:\Vip Vl\C####\cung la C#\dslienketkep\dslienketkep.sln">
+</Property><Property Name="User Options File" Value="E:\Vip Vl\C####\cung la C#\dslienketkep\dslienketkep.suo">
+</Property><Property Name="Date" Value="Monday, December 08, 2008">
+</Property><Property Name="Time" Value="22:08 CuongHam">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="dslienketkep.sln" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dslienketkep\Backup\dslienketkep.sln">
+</Event><Event ErrorLevel="0" Project="" Source="dslienketkep.suo" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dslienketkep\Backup\dslienketkep.suo">
+</Event><Event ErrorLevel="0" Project="dslienketkep" Source="dslienketkep\dslienketkep.csproj" Description="Project file successfully backed up as E:\Vip Vl\C####\cung la C#\dslienketkep\Backup\dslienketkep\dslienketkep.csproj">
+</Event><Event ErrorLevel="0" Project="dslienketkep" Source="dslienketkep\Program.cs" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dslienketkep\Backup\dslienketkep\Program.cs">
+</Event><Event ErrorLevel="0" Project="dslienketkep" Source="dslienketkep\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dslienketkep\Backup\dslienketkep\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="dslienketkep" Source="dslienketkep\dslienketkep.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dslienketkep" Source="dslienketkep\dslienketkep.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="dslienketkep.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="dslienketkep.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dslienketkep" Source="dslienketkep\dslienketkep.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

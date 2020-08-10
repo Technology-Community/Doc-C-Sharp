@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSLKdon", "DSLKdon\DSLKdon.csproj", "{CA0260A3-F8C3-4D49-85D6-4F5609976D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dslk", "dslk\dslk.csproj", "{D830537A-8754-4E02-8737-F6B3DB6E0717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA0260A3-F8C3-4D49-85D6-4F5609976D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0260A3-F8C3-4D49-85D6-4F5609976D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0260A3-F8C3-4D49-85D6-4F5609976D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0260A3-F8C3-4D49-85D6-4F5609976D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D830537A-8754-4E02-8737-F6B3DB6E0717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D830537A-8754-4E02-8737-F6B3DB6E0717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D830537A-8754-4E02-8737-F6B3DB6E0717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D830537A-8754-4E02-8737-F6B3DB6E0717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

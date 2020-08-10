@@ -1,0 +1,10 @@
+bin\Debug\DelegateApplication.exe
+bin\Debug\DelegateApplication.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DelegateApplication.frmFirstValue.resources
+obj\Debug\DelegateApplication.frmMain.resources
+obj\Debug\DelegateApplication.frmSecondValue.resources
+obj\Debug\DelegateApplication.Properties.Resources.resources
+obj\Debug\DelegateApplication.csproj.GenerateResource.Cache
+obj\Debug\DelegateApplication.exe
+obj\Debug\DelegateApplication.pdb

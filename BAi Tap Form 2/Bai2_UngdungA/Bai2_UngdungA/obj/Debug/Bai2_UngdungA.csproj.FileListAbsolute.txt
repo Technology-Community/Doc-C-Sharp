@@ -1,0 +1,10 @@
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\ResolveAssemblyReference.cache
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\Bai2_UngdungA.Form1.resources
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\Bai2_UngdungA.Properties.Resources.resources
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\Bai2_UngdungA.csproj.GenerateResource.Cache
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\bin\Debug\Bai2_UngdungA.exe
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\bin\Debug\Bai2_UngdungA.pdb
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\Bai2_UngdungA.exe
+D:\My docuiments\Visual Studio 2008\Projects\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\Bai2_UngdungA.pdb
+D:\New Folder\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\Bai2_UngdungA.exe
+D:\New Folder\Bai2_UngdungA\Bai2_UngdungA\obj\Debug\Bai2_UngdungA.pdb

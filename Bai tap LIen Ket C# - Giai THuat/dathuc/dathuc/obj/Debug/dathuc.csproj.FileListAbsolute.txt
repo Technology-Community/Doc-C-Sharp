@@ -1,0 +1,3 @@
+E:\Vip Vl\C####\cung la C#\dathuc\dathuc\obj\Debug\dathuc.exe
+E:\Vip Vl\C####\cung la C#\dathuc\dathuc\obj\Debug\ResolveAssemblyReference.cache
+E:\VipVl\C####\cung la C#\dathuc\dathuc\obj\Debug\dathuc.exe

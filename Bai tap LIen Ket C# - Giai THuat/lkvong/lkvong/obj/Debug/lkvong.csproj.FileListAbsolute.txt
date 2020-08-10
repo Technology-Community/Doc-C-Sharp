@@ -1,0 +1,7 @@
+E:\Vip Vl\C####\cung la C#\lkvong\lkvong\obj\Debug\lkvong.exe
+E:\Vip Vl\C####\cung la C#\lkvong\lkvong\obj\Debug\lkvong.pdb
+E:\Vip Vl\C####\cung la C#\lkvong\lkvong\bin\Debug\lkvong.exe
+E:\Vip Vl\C####\cung la C#\lkvong\lkvong\bin\Debug\lkvong.pdb
+E:\Vip Vl\C####\cung la C#\lkvong\lkvong\obj\Debug\ResolveAssemblyReference.cache
+E:\VipVl\C####\cung la C#\lkvong\lkvong\obj\Debug\lkvong.exe
+E:\VipVl\C####\cung la C#\lkvong\lkvong\obj\Debug\lkvong.pdb

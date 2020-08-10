@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="dathuc">
+</Property><Property Name="Solution File" Value="E:\Vip Vl\C####\cung la C#\dathuc\dathuc.sln">
+</Property><Property Name="User Options File" Value="E:\Vip Vl\C####\cung la C#\dathuc\dathuc.suo">
+</Property><Property Name="Date" Value="Monday, December 08, 2008">
+</Property><Property Name="Time" Value="22:07 CuongHam">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="dathuc.sln" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dathuc\Backup\dathuc.sln">
+</Event><Event ErrorLevel="0" Project="" Source="dathuc.suo" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dathuc\Backup\dathuc.suo">
+</Event><Event ErrorLevel="0" Project="dathuc" Source="dathuc\dathuc.csproj" Description="Project file successfully backed up as E:\Vip Vl\C####\cung la C#\dathuc\Backup\dathuc\dathuc.csproj">
+</Event><Event ErrorLevel="0" Project="dathuc" Source="dathuc\Program.cs" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dathuc\Backup\dathuc\Program.cs">
+</Event><Event ErrorLevel="0" Project="dathuc" Source="dathuc\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\dathuc\Backup\dathuc\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="dathuc" Source="dathuc\dathuc.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dathuc" Source="dathuc\dathuc.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="dathuc.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="dathuc.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dathuc" Source="dathuc\dathuc.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

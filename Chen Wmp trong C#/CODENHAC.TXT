@@ -1,0 +1,38 @@
+Imports System.Windows
+Public Class Frm_xnhac
+    Dim Playlist As WMPLib.IWMPPlaylist
+    Private Sub Frm_xnhac_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    End Sub
+    Private Sub ListBox2_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ListBox2.SelectedIndexChanged
+        Playlist = AxWindowsMediaPlayer1.newPlaylist("MyPlaylist", "")
+        If ListBox2.SelectedIndex = 0 Then
+            Label2.Text = "B?n dang nghe bài : Mua th?y tinh  chúc b?n vui v?"
+            Playlist.appendItem(AxWindowsMediaPlayer1.newMedia("F:\MP3\a.wma"))
+            AxWindowsMediaPlayer1.currentPlaylist = Playlist
+
+        ElseIf ListBox2.SelectedIndex = 1 Then
+            Label2.Text = " B?n dang nghe bài: B?t mí Chúc b?n vui v?"
+            Playlist.appendItem(AxWindowsMediaPlayer1.newMedia("F:\MP3\b.wmv"))
+            AxWindowsMediaPlayer1.currentPlaylist = Playlist
+
+        ElseIf ListBox2.SelectedIndex = 2 Then
+            Label2.Text = " B?n dang nghe bài: B?t mí Chúc b?n vui v?"
+            Playlist.appendItem(AxWindowsMediaPlayer1.newMedia("F:\MP3\c.mp3"))
+            AxWindowsMediaPlayer1.currentPlaylist = Playlist
+
+        ElseIf ListBox2.SelectedIndex = 3 Then
+            Label2.Text = " B?n dang nghe bài: B?t mí Chúc b?n vui v?"
+            Playlist.appendItem(AxWindowsMediaPlayer1.newMedia("F:\MP3\d.mp3"))
+            AxWindowsMediaPlayer1.currentPlaylist = Playlist
+        End If
+    End Sub
+    Private Sub AxWindowsMediaPlayer1_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AxWindowsMediaPlayer1.Enter
+        'Dim Playlist As WMPLib.IWMPPlaylist
+        't?o 1 Playlist r?ng
+        Playlist = AxWindowsMediaPlayer1.newPlaylist("MyPlaylist", "")
+        Playlist.appendItem(AxWindowsMediaPlayer1.newMedia("C:\MP3\.wma"))
+        Playlist.appendItem(AxWindowsMediaPlayer1.newMedia("C:\MP3\.wma"))
+        AxWindowsMediaPlayer1.currentPlaylist = Playlist
+    End Sub
+End Class

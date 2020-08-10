@@ -1,0 +1,15 @@
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.exe
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.pdb
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\bin\Debug\DirectoryManagement.exe
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\bin\Debug\DirectoryManagement.pdb
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\ResolveAssemblyReference.cache
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.About.resources
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.Explorer.resources
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.Properties.Resources.resources
+E:\TaiLieuThamKhao\C#\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.csproj.GenerateResource.Cache
+D:\C# Cua Master\TaiLieuThamKhao cua C# rat hay\C# Hay day\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.exe
+D:\C# Cua Master\TaiLieuThamKhao cua C# rat hay\C# Hay day\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\ResolveAssemblyReference.cache
+D:\C# Cua Master\TaiLieuThamKhao cua C# rat hay\C# Hay day\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.About.resources
+D:\C# Cua Master\TaiLieuThamKhao cua C# rat hay\C# Hay day\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.Explorer.resources
+D:\C# Cua Master\TaiLieuThamKhao cua C# rat hay\C# Hay day\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.Properties.Resources.resources
+D:\C# Cua Master\TaiLieuThamKhao cua C# rat hay\C# Hay day\Tao ung dung Duyet File va thu muc\Ma nguon\DirectoryManagement\obj\Debug\DirectoryManagement.csproj.GenerateResource.Cache

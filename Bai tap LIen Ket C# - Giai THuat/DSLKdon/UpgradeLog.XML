@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DSLKdon">
+</Property><Property Name="Solution File" Value="E:\VipVl\C####\cung la C#\DSLKdon\DSLKdon.sln">
+</Property><Property Name="User Options File" Value="E:\VipVl\C####\cung la C#\DSLKdon\DSLKdon.suo">
+</Property><Property Name="Date" Value="Tuesday, December 09, 2008">
+</Property><Property Name="Time" Value="17:04 CuongHam">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DSLKdon.sln" Description="File successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\DSLKdon.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DSLKdon.suo" Description="File successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\DSLKdon.suo">
+</Event><Event ErrorLevel="0" Project="DSLKdon" Source="DSLKdon\DSLKdon.csproj" Description="Project file successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\DSLKdon\DSLKdon.csproj">
+</Event><Event ErrorLevel="0" Project="DSLKdon" Source="DSLKdon\Program.cs" Description="File successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\DSLKdon\Program.cs">
+</Event><Event ErrorLevel="0" Project="DSLKdon" Source="DSLKdon\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\DSLKdon\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DSLKdon" Source="DSLKdon\DSLKdon.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DSLKdon" Source="DSLKdon\DSLKdon.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dslk" Source="dslk\dslk.csproj" Description="Project file successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\dslk\dslk.csproj">
+</Event><Event ErrorLevel="0" Project="dslk" Source="dslk\Program.cs" Description="File successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\dslk\Program.cs">
+</Event><Event ErrorLevel="0" Project="dslk" Source="dslk\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\VipVl\C####\cung la C#\DSLKdon\Backup\dslk\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="dslk" Source="dslk\dslk.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dslk" Source="dslk\dslk.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DSLKdon.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DSLKdon.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DSLKdon" Source="DSLKdon\DSLKdon.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dslk" Source="dslk\dslk.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,2460 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0045)http://ictdatto.com/forums/showthread.php?t=5 -->
+<!-- BEGIN TEMPLATE: SHOWTHREAD --><HTML lang=en dir=ltr 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Lập trình lồng 2 bức ảnh vào nhau - Diễn đàn Công nghệ Đất Tổ</TITLE><!-- BEGIN TEMPLATE: headinclude -->
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="MSHTML 6.00.5730.13" name=GENERATOR>
+<META 
+content=" Lập trình lồng 2 bức ảnh vào nhau, vbulletin,jelsoft,forum,bbs,discussion,bulletin board" 
+name=keywords>
+<META content=" Lập trình lồng 2 bức ảnh vào nhau CÁC BÀI VIẾT HƯỚNG DẪN" 
+name=description><!-- CSS Stylesheet -->
+<STYLE id=vbulletin_css type=text/css>BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(titanium/misc/back.gif) #191b21; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #ccffcc; PADDING-TOP: 0px
+}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+body_alink {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+body_avisited {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #999999; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #999999; TEXT-DECORATION: underline
+}
+body_ahover {
+	COLOR: #999999; TEXT-DECORATION: underline
+}
+.page {
+	BACKGROUND: #1b1b1b; COLOR: #999999
+}
+TD {
+	FONT: 9pt/22px Arial, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+TH {
+	FONT: 9pt/22px Arial, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+P {
+	FONT: 9pt/22px Arial, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+LI {
+	FONT: 9pt/22px Arial, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.tborder {
+	BACKGROUND: #000000; COLOR: #666666
+}
+.tcat {
+	BACKGROUND: url(titanium/misc/cat_back.gif) #000000 repeat-x left top; FONT: bold 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #cccccc
+}
+.tcat A:link {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.tcat_alink {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.tcat A:visited {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.tcat_avisited {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.tcat A:hover {
+	COLOR: #7c7c7c; TEXT-DECORATION: underline
+}
+.tcat A:active {
+	COLOR: #7c7c7c; TEXT-DECORATION: underline
+}
+.tcat_ahover {
+	COLOR: #7c7c7c; TEXT-DECORATION: underline
+}
+.thead {
+	BACKGROUND: url(titanium/misc/strip_back.gif) #272727 repeat-x left top; FONT: bold 10px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #d2ae02
+}
+.thead A:link {
+	COLOR: #d2ae02
+}
+.thead_alink {
+	COLOR: #d2ae02
+}
+.thead A:visited {
+	COLOR: #d2ae02
+}
+.thead_avisited {
+	COLOR: #d2ae02
+}
+.thead A:hover {
+	COLOR: #7c7c7c
+}
+.thead A:active {
+	COLOR: #7c7c7c
+}
+.thead_ahover {
+	COLOR: #7c7c7c
+}
+.tfoot {
+	BACKGROUND: #1b1b1b
+}
+.alt1 {
+	BORDER-TOP: #292929 1px solid; BACKGROUND: url(titanium/misc/alt1_bg.gif) #272727 repeat-x left top; BORDER-LEFT: #292929 1px solid; COLOR: #cccccc
+}
+.alt1Active {
+	BORDER-TOP: #292929 1px solid; BACKGROUND: url(titanium/misc/alt1_bg.gif) #272727 repeat-x left top; BORDER-LEFT: #292929 1px solid; COLOR: #cccccc
+}
+.alt2 {
+	BORDER-TOP: #292929 1px solid; BACKGROUND: url(titanium/misc/alt2_bg.gif) #1f1f1f repeat-x left top; BORDER-LEFT: #292929 1px solid; COLOR: #cccccc
+}
+.alt2Active {
+	BORDER-TOP: #292929 1px solid; BACKGROUND: url(titanium/misc/alt2_bg.gif) #1f1f1f repeat-x left top; BORDER-LEFT: #292929 1px solid; COLOR: #cccccc
+}
+.inlinemod {
+	BACKGROUND: #ffffcc; COLOR: #000000
+}
+.wysiwyg {
+	BACKGROUND: url(titanium/misc/editor_bg.gif) #2b2b2b repeat-x left top; FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #ffffff
+}
+TEXTAREA {
+	BACKGROUND: url(titanium/misc/editor_bg.gif) #2b2b2b repeat-x left top; FONT: 9pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #7b7b7b
+}
+.bginput {
+	BACKGROUND: url(titanium/misc/editor_bg.gif) #2b2b2b repeat-x left top; FONT: 9pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #7b7b7b
+}
+.bginput OPTION {
+	FONT-SIZE: 9pt; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.bginput OPTGROUP {
+	FONT-SIZE: 9pt; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.button {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+SELECT {
+	BACKGROUND: #2b2b2b; FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #7b7b7b
+}
+OPTION {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+OPTGROUP {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.smallfont {
+	FONT: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.time {
+	COLOR: #929292
+}
+.navbar {
+	FONT: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #7b7b7b
+}
+.highlight {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.fjsel {
+	BACKGROUND: #3e5c92; COLOR: #e0e0f6
+}
+.fjdpth0 {
+	BACKGROUND: #f7f7f7; COLOR: #000000
+}
+.panel {
+	BORDER-RIGHT: #000000 2px solid; PADDING-RIGHT: 10px; BORDER-TOP: #000000 2px solid; PADDING-LEFT: 10px; BACKGROUND: #222222; PADDING-BOTTOM: 10px; BORDER-LEFT: #000000 2px solid; COLOR: #cccccc; PADDING-TOP: 10px; BORDER-BOTTOM: #000000 2px solid
+}
+.panelsurround {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BACKGROUND: #222222; BORDER-LEFT: #000000 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #000000 1px solid
+}
+LEGEND {
+	FONT: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; COLOR: #7b7b7b
+}
+.vbmenu_control {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: url(titanium/misc/cat_back.gif) #000000 repeat-x 50% top; PADDING-BOTTOM: 3px; FONT: bold 10px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; BORDER-LEFT: #000000 1px solid; COLOR: #afafaf; PADDING-TOP: 3px; WHITE-SPACE: nowrap
+}
+.vbmenu_control A:link {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.vbmenu_control_alink {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.vbmenu_control A:visited {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.vbmenu_control_avisited {
+	COLOR: #afafaf; TEXT-DECORATION: none
+}
+.vbmenu_control A:hover {
+	COLOR: #afafaf; TEXT-DECORATION: underline
+}
+.vbmenu_control A:active {
+	COLOR: #afafaf; TEXT-DECORATION: underline
+}
+.vbmenu_control_ahover {
+	COLOR: #afafaf; TEXT-DECORATION: underline
+}
+.vbmenu_popup {
+	BACKGROUND: #000000; COLOR: #6d6d6d; TEXT-ALIGN: left
+}
+.vbmenu_option {
+	BORDER-TOP: #292929 1px solid; BACKGROUND: url(titanium/misc/strip_back.gif) #272727 repeat-x left top; FONT: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; BORDER-LEFT: #292929 1px solid; CURSOR: pointer; COLOR: #626262; WHITE-SPACE: nowrap
+}
+.vbmenu_option A:link {
+	COLOR: #717171; TEXT-DECORATION: none
+}
+.vbmenu_option_alink {
+	COLOR: #717171; TEXT-DECORATION: none
+}
+.vbmenu_option A:visited {
+	COLOR: #717171; TEXT-DECORATION: none
+}
+.vbmenu_option_avisited {
+	COLOR: #717171; TEXT-DECORATION: none
+}
+.vbmenu_option A:hover {
+	COLOR: #7c7c7c; TEXT-DECORATION: none
+}
+.vbmenu_option A:active {
+	COLOR: #7c7c7c; TEXT-DECORATION: none
+}
+.vbmenu_option_ahover {
+	COLOR: #7c7c7c; TEXT-DECORATION: none
+}
+.vbmenu_hilite {
+	BORDER-TOP: #292929 1px solid; BACKGROUND: url(titanium/misc/alt1_bg.gif) #272727 repeat-x left top; FONT: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; BORDER-LEFT: #292929 1px solid; CURSOR: pointer; COLOR: #7b7b7b; WHITE-SPACE: nowrap
+}
+.vbmenu_hilite A:link {
+	COLOR: #7f7f7f; TEXT-DECORATION: none
+}
+.vbmenu_hilite_alink {
+	COLOR: #7f7f7f; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:visited {
+	COLOR: #7f7f7f; TEXT-DECORATION: none
+}
+.vbmenu_hilite_avisited {
+	COLOR: #7f7f7f; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:hover {
+	COLOR: #909090; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:active {
+	COLOR: #909090; TEXT-DECORATION: none
+}
+.vbmenu_hilite_ahover {
+	COLOR: #909090; TEXT-DECORATION: none
+}
+.bigusername {
+	FONT-SIZE: 11pt
+}
+TD.thead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV.thead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.pagenav A {
+	TEXT-DECORATION: none
+}
+.pagenav TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.fieldset {
+	BORDER-RIGHT: #000000 2px solid; PADDING-RIGHT: 4px; BORDER-TOP: #000000 2px solid; PADDING-LEFT: 4px; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 4px; BORDER-LEFT: #000000 2px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #000000 2px solid
+}
+.fieldset {
+	FONT-SIZE: 11px
+}
+.fieldset TD {
+	FONT-SIZE: 11px
+}
+.fieldset P {
+	FONT-SIZE: 11px
+}
+.fieldset LI {
+	FONT-SIZE: 11px
+}
+FORM {
+	DISPLAY: inline
+}
+LABEL {
+	CURSOR: default
+}
+.normal {
+	FONT-WEIGHT: normal
+}
+.inlineimg {
+	VERTICAL-ALIGN: middle
+}
+#hdr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(titanium/misc/header_back.jpg) #000000; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 125px
+}
+#hdr_bdr {
+	BORDER-RIGHT: #2a2a2a 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #2a2a2a 1px solid; PADDING-TOP: 0px
+}
+#logo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(titanium/misc/logo.jpg); FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 273px; PADDING-TOP: 0px; HEIGHT: 125px
+}
+#hdr_rs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(titanium/misc/header_rs.jpg) #000000; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 12px; PADDING-TOP: 0px; HEIGHT: 125px
+}
+#nav_back {
+	BACKGROUND: url(titanium/misc/nav_back.jpg) #252525; WIDTH: 100%; HEIGHT: 22px
+}
+#nav_ls {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(titanium/misc/nav_ls.jpg) #252525; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 119px; PADDING-TOP: 0px; HEIGHT: 22px
+}
+#nav_bottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(titanium/misc/nav_btm.gif) #1b1b1b repeat-x left top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 6px
+}
+.nav_buttons {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-TOP: 1px
+}
+.info {
+	BORDER-RIGHT: #0e0e0e 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #0e0e0e 1px solid; PADDING-LEFT: 3px; MARGIN-BOTTOM: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #0e0e0e 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #0e0e0e 2px solid; BACKGROUND-COLOR: #2c2c2c
+}
+.announce_l {
+	BORDER-TOP: #3c3c3c 1px solid; BACKGROUND: #0f0f0f; BORDER-LEFT: #3c3c3c 1px solid; COLOR: #7a7a7a
+}
+.announce_r {
+	BORDER-TOP: #3c3c3c 1px solid; BACKGROUND: #1a1a1a; BORDER-LEFT: #3c3c3c 1px solid; COLOR: #7a7a7a
+}
+.stuck {
+	BORDER-TOP: #3c3c3c 1px solid; BACKGROUND: #1a1a1a; BORDER-LEFT: #3c3c3c 1px solid; COLOR: #7a7a7a
+}
+.spacer {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px
+}
+</STYLE>
+<LINK 
+href="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_important.css" 
+type=text/css rel=stylesheet><!-- / CSS Stylesheet --><!-- BEGIN TEMPLATE: hs_show --><!-- HS Images Resize -->
+<SCRIPT>
+			<!--
+			folder="./highslide/";
+			//-->
+			</SCRIPT>
+
+<SCRIPT language=javascript1.2 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/highslide.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+hs.registerOverlay(
+	{
+		thumbnailId: null,
+		overlayId: 'controlbar',
+		position: 'top right',
+		hideOnMouseOut: true
+	}
+);
+hs.graphicsDir = 'highslide/graphics/';
+hs.outlineType = 'rounded-white';
+hs.restoreTitle = 'Click to close, use arrow keys for next and previous';
+hs.loadingText = 'Loading...';
+hs.fullExpandTitle = 'Expand to actual size';
+hs.focusTitle = 'Click to bring to front';
+hs.loadingTitle = 'Click to cancel';
+hs.align = 'center';
+hs.easingClose = 'easeInQuad';
+hs.expandDuration = Math.max(1, 702);
+hs.restoreDuration = Math.max(1, 702);
+hs.expandSteps = 20;
+hs.restoreSteps = 20;
+hs.showCredits = false;
+hs.captionId = 'the-caption';
+hs.captionSlideSpeed = 0;
+hs.allowSizeReduction = false;
+hs.dimmingOpacity = 0.7;
+hs.dimmingDuration = 100;
+hs.spaceForCaption = 50;
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+		hs.easing = 'easeInBack';
+	</SCRIPT>
+
+<SCRIPT type=text/javascript>
+		hs.allowSizeReduction = true;
+	</SCRIPT>
+
+<SCRIPT type=text/javascript>
+		hs.easing = 'easeInBack';
+	</SCRIPT>
+
+<SCRIPT type=text/javascript>
+		hs.allowSizeReduction = true;
+	</SCRIPT>
+
+<STYLE type=text/css>.highslide {
+	CURSOR: url(highslide/graphics/zoomin.cur), pointer; outline: none
+}
+.highslide-active-anchor IMG {
+	VISIBILITY: hidden
+}
+.highslide:hover IMG {
+	BORDER-RIGHT: white 2px solid; BORDER-TOP: white 2px solid; BORDER-LEFT: white 2px solid; BORDER-BOTTOM: white 2px solid
+}
+.highslide-wrapper {
+	BACKGROUND: white
+}
+.highslide-image {
+	BORDER-RIGHT: white 2px solid; BORDER-TOP: white 2px solid; BORDER-LEFT: white 2px solid; BORDER-BOTTOM: white 2px solid
+}
+.highslide-image-blur {
+	
+}
+.highslide-dimming {
+	BACKGROUND: black; VISIBILITY: hidden; POSITION: absolute
+}
+.highslide-active-anchor IMG {
+	VISIBILITY: hidden
+}
+.highslide-caption {
+	BORDER-RIGHT: white 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: white 2px; DISPLAY: none; PADDING-LEFT: 5px; FONT-SIZE: 10pt; PADDING-BOTTOM: 5px; BORDER-LEFT: white 2px solid; PADDING-TOP: 5px; BORDER-BOTTOM: white 2px solid; FONT-FAMILY: Verdana, Helvetica; BACKGROUND-COLOR: white
+}
+.highslide-loading {
+	PADDING-RIGHT: 3px; BORDER-TOP: white 1px solid; DISPLAY: block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 9px; PADDING-BOTTOM: 3px; COLOR: white; PADDING-TOP: 3px; BORDER-BOTTOM: white 1px solid; BACKGROUND-COLOR: black; TEXT-DECORATION: none
+}
+A.highslide-credits {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: silver; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.highslide-credits I {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: silver; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.highslide-credits:hover {
+	COLOR: white; BACKGROUND-COLOR: gray
+}
+A.highslide-credits:hover I {
+	COLOR: white; BACKGROUND-COLOR: gray
+}
+.highslide-move {
+	CURSOR: move
+}
+.highslide-overlay {
+	DISPLAY: none
+}
+A.highslide-full-expand {
+	DISPLAY: block; BACKGROUND: url(highslide/graphics/fullexpand.gif) no-repeat; MARGIN: 0px 10px 10px 0px; WIDTH: 34px; HEIGHT: 34px
+}
+.control {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 9pt; FLOAT: right; MARGIN: 1px 5px; TEXT-TRANSFORM: uppercase; POSITION: relative; TEXT-DECORATION: none
+}
+.control:hover {
+	BORDER-TOP: #333 1px solid; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; BORDER-BOTTOM: #333 1px solid
+}
+.control {
+	COLOR: #666
+}
+.control * {
+	COLOR: #666
+}
+.highslide-display-block {
+	DISPLAY: block
+}
+.highslide-display-none {
+	DISPLAY: none
+}
+.highslide-background {
+	COLOR: #000000
+}
+</STYLE>
+<!-- / HS Images Resize --><!-- END TEMPLATE: hs_show -->
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/yahoo-dom-event.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/connection-min.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "1247724873-708baee1ab4ea9297b4440c23b3b78f22e9cc484";
+var IMGDIR_MISC = "titanium/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_global.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_menu.js" 
+type=text/javascript></SCRIPT>
+<LINK title="Diễn đàn Công nghệ Đất Tổ RSS Feed" href="external.php?type=RSS2" 
+type=application/rss+xml rel=alternate><LINK 
+title="Diễn đàn Công nghệ Đất Tổ - CÁC BÀI VIẾT HƯỚNG DẪN - RSS Feed" 
+href="external.php?type=RSS2&amp;forumids=73" type=application/rss+xml 
+rel=alternate>
+<SCRIPT type=text/javascript>
+function selectCode(a)
+{
+   var e = a.parentNode.parentNode.getElementsByTagName('CODE')[0];
+   if (window.getSelection)
+   {
+      var s = window.getSelection();
+       if (s.setBaseAndExtent)
+      {
+         s.setBaseAndExtent(e, 0, e, e.innerText.length - 1);
+      }
+      else
+      {
+         var r = document.createRange();
+         r.selectNodeContents(e);
+         s.removeAllRanges();
+         s.addRange(r);
+      }
+   }
+   else if (document.getSelection)
+   {
+      var s = document.getSelection();
+      var r = document.createRange();
+      r.selectNodeContents(e);
+      s.removeAllRanges();
+      s.addRange(r);
+   }
+   else if (document.selection)
+   {
+      var r = document.body.createTextRange();
+      r.moveToElementText(e);
+      r.select();
+   }
+}
+</SCRIPT>
+<!-- BEGIN TEMPLATE: afm_fisheye_headinclude -->
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/jquery.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/fisheye.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/iutil.js" 
+type=text/javascript></SCRIPT>
+<!--[if lt IE 7]>
+ <style type="text/css">
+ .dock img { behavior: url(http://ictdatto.com/forums/fisheye/iepngfix.htc) }
+ </style>
+<![endif]--><!-- END TEMPLATE: afm_fisheye_headinclude --><!-- BEGIN TEMPLATE: afm_fisheye_stylesheet -->
+<STYLE type=text/css>.dock {
+	POSITION: relative; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.dock-container {
+	PADDING-LEFT: 20px; BACKGROUND: url(fisheye/images/dock-bg2.gif); POSITION: absolute; HEIGHT: 50px
+}
+A.dock-item {
+	DISPLAY: block; FONT: bold 12px Arial, Helvetica, sans-serif; WIDTH: 40px; COLOR: #000; POSITION: absolute; TOP: 0px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.dock-item IMG {
+	MARGIN: 5px 10px 0px; WIDTH: 100%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dock-item SPAN {
+	DISPLAY: none; PADDING-LEFT: 20px
+}
+#dock2 {
+	LEFT: 0px; WIDTH: 100%; BOTTOM: 0px; POSITION: absolute
+}
+.dock-container2 {
+	PADDING-LEFT: 20px; BACKGROUND: url(fisheye/images/dock-bg.gif); POSITION: absolute; HEIGHT: 50px
+}
+A.dock-item2 {
+	DISPLAY: block; FONT: bold 12px Arial, Helvetica, sans-serif; WIDTH: 40px; COLOR: #000; BOTTOM: 0px; POSITION: absolute; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.dock-item2 SPAN {
+	DISPLAY: none; PADDING-LEFT: 20px
+}
+.dock-item2 IMG {
+	MARGIN: 5px 10px 0px; WIDTH: 100%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+</STYLE>
+<!-- END TEMPLATE: afm_fisheye_stylesheet --><!-- END TEMPLATE: headinclude --><!-- Editor CSS automatically added by functions_editor.php at line 650 --><!-- BEGIN TEMPLATE: editor_css --><!-- Editor Styles -->
+<STYLE id=vbulletin_editor_css_dynamic type=text/css>@import url( clientscript/vbulletin_editor.css?v=372 );
+.vBulletin_editor {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #222222; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.imagebutton {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BACKGROUND: #222222; PADDING-BOTTOM: 1px; COLOR: #626262; BORDER-TOP-STYLE: none; PADDING-TOP: 1px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.ocolor {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid
+}
+.ofont {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid
+}
+.osize {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid
+}
+.osmilie {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid
+}
+.osyscoloar {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid
+}
+.smilietitle {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #ffffff 1px solid
+}
+.popup_pickbutton {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid
+}
+.popup_feedback {
+	BORDER-RIGHT: #ffffff 1px solid; BACKGROUND: #ffffff; COLOR: #000000
+}
+.popupwindow {
+	BACKGROUND: #ffffff
+}
+#fontOut {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+#sizeOut {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+.popup_feedback DIV {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+.alt_pickbutton {
+	BORDER-LEFT: #222222 1px solid
+}
+.popup_feedback INPUT {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 2px; BORDER-TOP: 0px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; FONT: 11px tahoma; OVERFLOW: hidden; BORDER-LEFT: 0px solid; CURSOR: default; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid
+}
+.popup_feedback DIV {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 2px; BORDER-TOP: 0px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; FONT: 11px tahoma; OVERFLOW: hidden; BORDER-LEFT: 0px solid; CURSOR: default; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid
+}
+</STYLE>
+<!-- / Editor Styles --><!-- END TEMPLATE: editor_css -->
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_post_loader.js" 
+type=text/javascript></SCRIPT>
+
+<STYLE id=vbulletin_showthread_css type=text/css>#tag_edit_list {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#tag_edit_list LI {
+	DISPLAY: block; FLOAT: left; WIDTH: 200px
+}
+#tag_edit_list LI.mine {
+	FONT-WEIGHT: bold
+}
+#links DIV {
+	WHITE-SPACE: nowrap
+}
+#links IMG {
+	VERTICAL-ALIGN: middle
+}
+</STYLE>
+</HEAD>
+<BODY onload=""><!-- BEGIN TEMPLATE: header --><LINK 
+href="http://ictdatto.com/forums/favicon.ico" rel="shortcut icon">
+<SCRIPT language=Javascript 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/him.js"></SCRIPT>
+<!-- flash banner -->
+<DIV id=Layer1 
+style="Z-INDEX: 1; LEFT: 0px; WIDTH: 250px; POSITION: absolute; TOP: 0px; HEIGHT: 10px" 
+align=center>
+<OBJECT height=125 width="100%">
+<embed src="images/banner/star.swf" width="100%" height="125" quality="high" 
+align="center" pluginspage="http://www.macromedia.com/go/getflashplayer" 
+type="application/x-shockwave-flash" menu="false" wmode="transparent"></embed>
+</OBJECT></DIV><!-- /flash banner --><!-- set below for skin width-->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD style="BACKGROUND-IMAGE: url(titanium/misc/side_ls.gif)" vAlign=top 
+    align=left width=15><IMG alt="" 
+      src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/side_ls.gif" 
+      width=15></TD>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=middle><!-- begin titanium header / logo is controlled via #logo in main CSS file -->
+            <DIV id=hdr_bdr>
+            <DIV id=hdr>
+            <DIV id=logo></DIV>
+            <DIV id=hdr_rs></DIV></DIV>
+            <DIV id=nav_back>
+            <DIV id=nav_ls></DIV>
+            <TABLE cellSpacing=0 cellPadding=0 width="50%" align=center 
+border=0>
+              <TBODY>
+              <TR>
+                <TD align=middle><!-- begin navigation buttons table -->
+                  <TABLE cellSpacing=0 cellPadding=0 width="50%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=nav_buttons width=45 height=19><A accessKey=1 
+                        href="http://ictdatto.com/forums/index.php"><IMG 
+                        height=19 alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/nav_home.gif" 
+                        width=45 border=0></A></TD>
+                      <TD class=nav_buttons width=65 height=19><A 
+                        href="http://ictdatto.com/forums/usercp.php"><IMG 
+                        height=19 alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/nav_user_cp.gif" 
+                        width=65 border=0></A></TD>
+                      <TD class=nav_buttons id=usercptools width=56 
+                        height=19><A 
+                        href="http://ictdatto.com/forums/showthread.php?t=5&amp;nojs=1#usercptools"><IMG 
+                        height=19 alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/nav_menu.gif" 
+                        width=56 border=0></A>
+                        <SCRIPT type=text/javascript> vbmenu_register("usercptools", 1); </SCRIPT>
+                      </TD>
+                      <TD class=nav_buttons width=65 height=19><A 
+                        href="http://ictdatto.com/forums/memberlist.php"><IMG 
+                        height=19 alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/nav_members.gif" 
+                        width=65 border=0></A></TD>
+                      <TD class=nav_buttons width=72 height=19><A 
+                        href="http://ictdatto.com/forums/calendar.php"><IMG 
+                        height=19 alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/nav_cal.gif" 
+                        width=72 border=0></A></TD>
+                      <TD class=nav_buttons id=navbar_search width=72 
+                        height=19><A accessKey=4 
+                        href="http://ictdatto.com/forums/search.php" 
+                        rel=nofollow><IMG height=19 alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/nav_search.gif" 
+                        width=72 border=0></A>
+                        <SCRIPT type=text/javascript> vbmenu_register("navbar_search" ,1); </SCRIPT>
+                      </TD>
+                      <TD class=nav_buttons width=38 height=19><A accessKey=5 
+                        href="http://ictdatto.com/forums/faq.php"><IMG height=19 
+                        alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/nav_faq.gif" 
+                        width=38 border=0></A></TD></TR></TBODY></TABLE><!-- End navigation buttons table --></TD></TR></TBODY></TABLE></DIV></DIV>
+            <DIV id=nav_bottom></DIV><!-- content table -->
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#1b1b1b 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD><!-- BEGIN TEMPLATE: spacer_open --><!-- open content container -->
+                  <DIV align=center>
+                  <DIV class=page style="WIDTH: 100%; TEXT-ALIGN: left">
+                  <DIV 
+                  style="PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+                  align=left><!-- END TEMPLATE: spacer_open --><!-- END TEMPLATE: header --><!-- BEGIN TEMPLATE: navbar --><BR><!-- breadcrumb, login, pm info -->
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=alt1 width="100%">
+                        <TABLE cellSpacing=0 cellPadding=0 border=0>
+                          <TBODY>
+                          <TR vAlign=bottom>
+                            <TD><A onclick="history.back(1); return false;" 
+                              href="http://ictdatto.com/forums/showthread.php?t=5#"><IMG 
+                              alt="Trở về" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/navbits_start.gif" 
+                              border=0></A></TD>
+                            <TD>&nbsp;</TD>
+                            <TD width="100%"><SPAN class=navbar><A accessKey=1 
+                              href="http://ictdatto.com/forums/index.php">Diễn 
+                              đàn Công nghệ Đất Tổ</A></SPAN> <!-- BEGIN TEMPLATE: navbar_link --><SPAN 
+                              class=navbar>&gt; <A 
+                              href="http://ictdatto.com/forums/forumdisplay.php?f=24">TIN 
+                              HỌC - LẬP TRÌNH</A></SPAN> <!-- END TEMPLATE: navbar_link --><!-- BEGIN TEMPLATE: navbar_link --><SPAN 
+                              class=navbar>&gt; <A 
+                              href="http://ictdatto.com/forums/forumdisplay.php?f=26">C# 
+                              2005 - 2008</A></SPAN> <!-- END TEMPLATE: navbar_link --><!-- BEGIN TEMPLATE: navbar_link --><SPAN 
+                              class=navbar>&gt; <A 
+                              href="http://ictdatto.com/forums/forumdisplay.php?f=52">CÁC 
+                              BÀI VIẾT HƯỚNG DẪN</A></SPAN> <!-- END TEMPLATE: navbar_link --><!-- BEGIN TEMPLATE: navbar_link --><SPAN 
+                              class=navbar>&gt; <A 
+                              href="http://ictdatto.com/forums/forumdisplay.php?f=73">CÁC 
+                              BÀI VIẾT HƯỚNG DẪN</A></SPAN> <!-- END TEMPLATE: navbar_link --></TD></TR>
+                          <TR>
+                            <TD class=navbar 
+                            style="FONT-SIZE: 10pt; PADDING-TOP: 1px" 
+                              colSpan=3><A 
+                              href="http://ictdatto.com/forums/showthread.php?t=5"><IMG 
+                              class=inlineimg alt="Nạp lại trang này" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/navbits_finallink_ltr.gif" 
+                              border=0></A> <STRONG><!-- BEGIN TEMPLATE: navbar_link -->Lập 
+                              trình lồng 2 bức ảnh vào nhau <!-- END TEMPLATE: navbar_link --></STRONG></TD></TR></TBODY></TABLE></TD>
+                      <TD class=alt2 vAlign=top noWrap>
+                        <DIV class=smallfont><STRONG>Chào mừng, 
+                        cuongsaco</STRONG><BR>Vừa ghé thăm: Hôm nay lúc <SPAN 
+                        class=time>12:52 PM</SPAN> <BR><A 
+                        href="http://ictdatto.com/forums/private.php">Tin 
+                        nhắn</A>: 0 Chưa đọc, Total 0. 
+</DIV></TD></TR></TBODY></TABLE><!-- / breadcrumb, login, pm info --><!-- nav buttons bar --><!-- / nav buttons bar --><BR>
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=alt1 width="100%"><STRONG>CÁC BÀI VIẾT HƯỚNG 
+                        DẪN</STRONG> <SPAN class=smallfont>Các bài viết hướng 
+                        dẫn</SPAN></TD></TR></TBODY></TABLE><BR><!-- NAVBAR POPUP MENUS --><!-- header quick search form -->
+                  <DIV class=vbmenu_popup id=navbar_search_menu 
+                  style="DISPLAY: none">
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>Tìm kiếm trong diễn đàn</TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option title=nohilite>
+                        <FORM action=search.php?do=process method=post><INPUT 
+                        type=hidden value=process name=do> <INPUT type=hidden 
+                        value=1 name=quicksearch> <INPUT type=hidden value=1 
+                        name=childforums> <INPUT type=hidden value=1 
+                        name=exactname> <INPUT type=hidden name=s> 
+                        <DIV><INPUT class=bginput tabIndex=1001 size=25 
+                        name=query><INPUT class=button tabIndex=1004 type=submit value=Go></DIV>
+                        <DIV style="MARGIN-TOP: 6px"><LABEL for=rb_nb_sp0><INPUT 
+                        id=rb_nb_sp0 tabIndex=1002 type=radio CHECKED value=0 
+                        name=showposts>Hiển thị chủ đề</LABEL> &nbsp; <LABEL 
+                        for=rb_nb_sp1><INPUT id=rb_nb_sp1 tabIndex=1003 
+                        type=radio value=1 name=showposts>Hiển thị bài 
+                        viết</LABEL> </DIV></FORM></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A accessKey=2 
+                        href="http://ictdatto.com/forums/search.php?do=getnew">Bài 
+                        viết mới:</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A accessKey=2 
+                        href="http://ictdatto.com/forums/search.php?do=getdaily">Bài 
+                        viết trong ngày:</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A accessKey=4 
+                        href="http://ictdatto.com/forums/search.php" 
+                        rel=nofollow>Tìm kiếm nâng cao</A></TD><!-- Start Post Thank You Hack --></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/search.php?do=findallthanks">Tìm 
+                        tất cả bài viết có lời cám ơn</A></TD><!-- End Post Thank You Hack --></TR></TBODY></TABLE></DIV><!-- / header quick search form --><!-- user cp tools menu -->
+                  <DIV class=vbmenu_popup id=usercptools_menu 
+                  style="DISPLAY: none">
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>Liên kết nhanh</TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/search.php?do=getdaily">Bài 
+                        viết trong ngày</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/forumdisplay.php?do=markread">Ðánh 
+                        dấu đã đọc</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        onclick="window.open('misc.php?do=buddylist&amp;focus=1','buddylist','statusbar=no,menubar=no,toolbar=no,scrollbars=yes,resizable=yes,width=250,height=300'); return false;" 
+                        href="http://ictdatto.com/forums/showthread.php?t=5#"></A></TD></TR>
+                    <TR>
+                      <TD class=thead><A 
+                        href="http://ictdatto.com/forums/usercp.php">Khung điều 
+                        khiển</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/profile.php?do=editsignature">Chỉnh 
+                        sửa chữ ký</A></TD></TR><!--<tr><td class="vbmenu_option"><a href="profile.php?do=editavatar">Chỉnh sửa Avatar</a></td></tr>-->
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/profile.php?do=editprofile"></A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/profile.php?do=editoptions">Chỉnh 
+                        sửa tùy chọn</A></TD></TR>
+                    <TR>
+                      <TD class=thead>Linh tinh</TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/private.php" 
+                        rel=nofollow>Tin nhắn</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/subscription.php" 
+                        rel=nofollow>Được phép theo dõi chủ đề</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/member.php?u=98"></A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/online.php">Who's 
+                        Online</A></TD></TR></TBODY></TABLE></DIV><!-- / user cp tools menu --><!-- BEGIN TEMPLATE: newstext -->
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=tcat width="100%" colSpan=2>
+                        <DIV align=center>
+                        <TABLE 
+                        style="FILTER: glow(color={plum}, strength={option})">Hello: 
+                          cuongsaco !!! Welcome to Informations and 
+                          Communications DAT TO of Technology
+                          <TBODY></TBODY></TABLE></DIV></TD></TR></THEAD>
+                    <TR>
+                      <TD class=alt1 width="100%" colSpan=2><FONT face=Arial 
+                        color=red size=2><I>Không một hệ thống nào là hoàn hảo 
+                        (No one is perfect) và hệ thống của chúng tôi cũng không 
+                        phải là một trường hợp ngoại lệ. Mặc dù đã cố gắng trong 
+                        khả năng có thể để quản lý mã nhưng chắc chắn không 
+                        tránh khỏi những sai sót. Chúng tôi rất hoan nghênh 
+                        những gợi ý và các ý kiến đóng góp. Cám ơn sự hợp tác 
+                        của bạn ! Tôi, bạn và chúng ta hãy: <B><A 
+                        href="http://ictdatto.com/forums/showthread.php?t=35" 
+                        target=_blank>CHUNG TAY LÀM GIÀU ĐẤT TỔ</A></B> 
+                        </I></FONT></TD></TR></TBODY></TABLE><!-- END TEMPLATE: newstext --><BR><!-- / NAVBAR POPUP MENUS --><!-- PAGENAV POPUP -->
+                  <DIV class=vbmenu_popup id=pagenav_menu style="DISPLAY: none">
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead noWrap>Chuyển tới trang ...</TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option title=nohilite>
+                        <FORM id=pagenav_form onsubmit="return this.gotopage()" 
+                        action=index.php method=get><INPUT class=bginput 
+                        id=pagenav_itxt style="FONT-SIZE: 11px" size=4> <INPUT class=button id=pagenav_ibtn type=button value=Go> 
+                        </FORM></TD></TR></TBODY></TABLE></DIV><!-- / PAGENAV POPUP --><!-- END TEMPLATE: navbar --><A 
+                  id=poststop name=poststop></A><!-- controls above postbits -->
+                  <TABLE style="MARGIN-BOTTOM: 3px" cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY>
+                    <TR vAlign=bottom>
+                      <TD class=smallfont><A 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;noquote=1&amp;p=14" 
+                        rel=nofollow><IMG alt="Trả lời" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/reply.gif" 
+                        border=0></A></TD></TR></TBODY></TABLE><!-- / controls above postbits --><!-- toolbar -->
+                  <TABLE class=tborder style="BORDER-BOTTOM-WIDTH: 0px" 
+                  cellSpacing=1 cellPadding=6 width="100%" align=center 
+border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=tcat width="100%">
+                        <DIV class=smallfont> </DIV></TD>
+                      <TD class=vbmenu_control id=threadtools noWrap><A 
+                        accessKey=3 
+                        href="http://ictdatto.com/forums/showthread.php?t=5&amp;nojs=1#goto_threadtools">Ðiều 
+                        Chỉnh</A>
+                        <SCRIPT type=text/javascript> vbmenu_register("threadtools"); </SCRIPT>
+                         </TD>
+                      <TD class=vbmenu_control id=threadsearch noWrap><A 
+                        href="http://ictdatto.com/forums/showthread.php?t=5&amp;nojs=1#goto_threadsearch">Tìm 
+                        kiếm trong chủ đề</A>
+                        <SCRIPT type=text/javascript> vbmenu_register("threadsearch"); </SCRIPT>
+                         </TD>
+                      <TD class=vbmenu_control id=threadrating noWrap><A 
+                        href="http://ictdatto.com/forums/showthread.php?t=5&amp;nojs=1#goto_threadrating"><SPAN 
+                        id=threadrating_current>Cho điểm chủ đề</SPAN></A>
+                        <SCRIPT type=text/javascript> vbmenu_register("threadrating"); </SCRIPT>
+                         </TD>
+                      <TD class=vbmenu_control id=displaymodes noWrap><A 
+                        href="http://ictdatto.com/forums/showthread.php?t=5&amp;nojs=1#goto_displaymodes">Chọn 
+                        hiển thị</A>
+                        <SCRIPT type=text/javascript> vbmenu_register("displaymodes"); </SCRIPT>
+                         </TD></TR></TBODY></TABLE><!-- / toolbar --><!-- end content table --><!-- BEGIN TEMPLATE: spacer_close --></DIV></DIV></DIV><!-- / close content container --><!-- END TEMPLATE: spacer_close --><!-- / end content table -->
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_ajax_reputation.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <DIV id=posts><!-- BEGIN TEMPLATE: postbit_wrapper --><!-- post #14 --><!-- BEGIN TEMPLATE: spacer_open --><!-- open content container -->
+                  <DIV align=center>
+                  <DIV class=page style="WIDTH: 100%; TEXT-ALIGN: left">
+                  <DIV 
+                  style="PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+                  align=left><!-- END TEMPLATE: spacer_open -->
+                  <DIV id=edit14 
+                  style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 0px"><!-- this is not the last post shown on the page --><!-- BEGIN TEMPLATE: postbit -->
+                  <TABLE class=tborder id=post14 cellSpacing=1 cellPadding=6 
+                  width="100%" align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>
+                        <DIV class=normal style="FLOAT: right">&nbsp; #<A 
+                        id=postcount14 
+                        href="http://ictdatto.com/forums/showpost.php?p=14&amp;postcount=1" 
+                        target=new rel=nofollow name=1><STRONG>1</STRONG></A> 
+                        &nbsp; <SPAN id=reputationmenu_14><A id=reputation_14 
+                        href="http://ictdatto.com/forums/reputation.php?p=14" 
+                        rel=nofollow><IMG class=inlineimg 
+                        alt="Thăng/Bớt điểm cho NEO" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/reputation.gif" 
+                        border=0></A></SPAN>
+                        <SCRIPT 
+                        type=text/javascript> vbrep_register("14")</SCRIPT>
+                         &nbsp; <A 
+                        href="http://ictdatto.com/forums/report.php?p=14" 
+                        rel=nofollow><IMG class=inlineimg 
+                        alt="Thông báo nội dung xấu" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/report.gif" 
+                        border=0></A> &nbsp; </DIV>
+                        <DIV class=normal><!-- status icon and date --><A 
+                        name=post14><IMG class=inlineimg alt=Old 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/post_old.gif" 
+                        border=0></A> 16-08-2008, 11:48 PM <!-- / status icon and date --></DIV></TD></TR>
+                    <TR>
+                      <TD class=alt2 
+                      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px"><!-- user info -->
+                        <TABLE cellSpacing=6 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=alt2><A 
+                              href="http://ictdatto.com/forums/member.php?u=2"><IMG 
+                              alt="NEO's Avatar" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/noavatar.gif" 
+                              border=0></A></TD>
+                            <TD noWrap>
+                              <DIV id=postmenu_14><A class=bigusername 
+                              href="http://ictdatto.com/forums/member.php?u=2">
+                              <TABLE 
+                              style="FILTER: glow(color=blue, strength=5)">
+                                <TBODY>
+                                <TR>
+                                <TD><FONT class=bigusername 
+                                color=white><B>NEO</B> 
+                              </FONT></TD></TR></TBODY></TABLE></A><!-- BEGIN TEMPLATE: postbit_onlinestatus --><SPAN 
+                              class=smallfont>NEO is offline </SPAN><!-- END TEMPLATE: postbit_onlinestatus -->
+                              <SCRIPT type=text/javascript> vbmenu_register("postmenu_14", true); </SCRIPT>
+                              </DIV>
+                              <DIV class=smallfont>Super Moderator</DIV></TD>
+                            <TD width="100%">&nbsp;</TD>
+                            <TD vAlign=top noWrap>
+                              <DIV class=smallfont>
+                              <DIV>Tham gia ngày: Aug 2008</DIV>
+                              <DIV>Đến từ: C:\WINDOWS\System32</DIV>
+                              <DIV>Bài viết: 134 <!-- Start Post Thank You Hack --><BR>Thanks: 2 
+                              <BR>Thanked 3 Times in 2 Posts <!-- End Post Thank You Hack --></DIV>
+                              <DIV><SPAN id=repdisplay_14_2><!-- BEGIN TEMPLATE: postbit_reputation --><IMG 
+                              class=inlineimg 
+                              alt="NEO is on a distinguished road" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/reputation_pos.gif" 
+                              border=0> <!-- END TEMPLATE: postbit_reputation --></SPAN></DIV>
+                              <DIV><!-- BEGIN TEMPLATE: im_yahoo --><A 
+                              onclick="imwindow('yahoo', '2', 400, 200); return false;" 
+                              href="http://ictdatto.com/forums/showthread.php?t=5#"><IMG 
+                              alt="Gửi tin nhắn qua Yahoo chat với NEO" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/im_yahoo.gif" 
+                              border=0></A> 
+                              <!-- END TEMPLATE: im_yahoo --></DIV></DIV></TD></TR></TBODY></TABLE><!-- / user info --></TD></TR>
+                    <TR>
+                      <TD class=alt1 id=td_post_14><!-- message, attachments, sig --><!-- icon and title -->
+                        <DIV class=smallfont><IMG class=inlineimg alt="Mặc định" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/icon1.gif" 
+                        border=0> <STRONG>Lập trình lồng 2 bức ảnh vào 
+                        nhau</STRONG> </DIV>
+                        <HR style="COLOR: #000000; BACKGROUND-COLOR: #000000" 
+                        SIZE=1>
+<!-- / icon and title --><!-- message -->
+                        <DIV id=post_message_14>Dùng phương thức ApplyTextture 
+                        này để ***g 2 ảnh vào nhau. Ví dụ đặt trong sự kiên 
+                        paint() của form.<BR>Phải using thằng 
+                        System.Drawing.Imaging; trước<BR><BR><!-- BEGIN TEMPLATE: bbcode_high --><PRE class=csharp name="code">public static void ApplyTexture (Image img, Image texture, 
+    float textureTransparency)
+{
+    if ( (img ==null) || (texture==null) ) 
+        throw new ArgumentNullException();
+    if (textureTransparency &lt; 0 || textureTransparency &gt; 1) 
+        throw new ArgumentOutOfRangeException(
+              "Gia tri tu 0 den 1.");
+ 
+    // Chuyen anh qua mau gray truoc
+    MakeImageGrayscale (texture);
+ 
+ 
+    Bitmap txtr = new Bitmap(texture);
+    BitmapData bmData = txtr.LockBits(new Rectangle(0, 0, 
+                 txtr.Width, txtr.Height), 
+        ImageLockMode.ReadWrite, PixelFormat.Format32bppArgb); 
+    int stride = bmData.Stride; 
+    System.IntPtr Scan0 = bmData.Scan0; 
+ 
+    unsafe
+    {
+        byte * p = (byte *)(void *)Scan0;
+        int nOffset = stride - txtr.Width*4;
+ 
+ 
+        for (int y=0; y &lt; txtr.Height; ++y)
+        {
+            for (int x=0; x &lt; txtr.Width; ++x)
+            {
+                p[3] = (byte)(p[0] * textureTransparency);
+                p += 4; // Move to the next pixel
+            }
+            p += nOffset;
+        }
+    }
+    txtr.UnlockBits(bmData);
+ 
+    Graphics gr = Graphics.FromImage(img);
+    TextureBrush myBrush = new TextureBrush(txtr);
+    gr.FillRectangle (myBrush,0,0,img.Width, img.Height);
+    myBrush.Dispose();
+    gr.Dispose();
+    txtr.Dispose();
+}
+ 
+ 
+ 
+// Chuyen mot anh thanh mau xam
+public static void MakeImageGrayscale (Image img)
+{
+    ColorMatrix cMatrix = new ColorMatrix ( 
+       new float[][]  { 
+         new float[] {0.299F, 0.299F, 0.299F, 0, 0},
+         new float[] {0.587F, 0.587F, 0.587F, 0, 0},
+         new float[] {0.114F, 0.114F, 0.114F, 0, 0},
+         new float[] {0, 0, 0, 1, 0},
+         new float[] {0,  0,  0,  1, 0}});
+ 
+    ImageAttributes imageAttrib = new ImageAttributes();
+    imageAttrib.SetColorMatrix(cMatrix);
+ 
+    Graphics gr = Graphics.FromImage (img);
+ 
+    gr.DrawImage (img, new Rectangle(0, 0, img.Width, img.Height), 
+                    0, 0, img.Width, img.Height, GraphicsUnit.Pixel, 
+                    imageAttrib);
+    gr.Dispose();
+}</PRE><!-- END TEMPLATE: bbcode_high --></DIV><!-- / message --><!-- sig -->
+                        <DIV>__________________<BR>
+                        <TABLE 
+                        style="FILTER: glow(color={plum}, strength={option})">When 
+                          you smile, your eyes show your heart - Lost inside a 
+                          suit torn apart <BR>When you're lost, your eyes show 
+                          your heart - I should like to know I'm a part<BR>When 
+                          your eyes shine, I'll know you're mine - For all of 
+                          the time
+                          <TBODY></TBODY></TABLE></DIV><!-- / sig --><!-- edit note -->
+                        <DIV class=smallfont>
+                        <HR style="COLOR: #000000; BACKGROUND-COLOR: #000000" 
+                        SIZE=1>
+                        <EM>Thay đổi nội dung bởi:<STRONG> NEO</STRONG>, 
+                        02-09-2008 lúc <SPAN class=time>03:05 AM</SPAN>. 
+                        </EM></DIV><!-- / edit note -->
+                        <DIV style="MARGIN-TOP: 10px" align=right><!-- controls --><!-- Start Post Thank You Hack --><!-- BEGIN TEMPLATE: post_thanks_button --><A 
+                        id=post_thanks_button_14 
+                        onclick="post_thanks_give_14(); return false;" 
+                        href="http://ictdatto.com/forums/showthread.php?do=post_thanks_add&amp;p=14"></A><!-- END TEMPLATE: post_thanks_button --><!-- End Post Thank You Hack --><A 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;p=14" 
+                        rel=nofollow><IMG 
+                        alt="Trả lời bài viết này với một trích dẫn" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/quote.gif" 
+                        border=0></A> <A onclick="return false" 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;p=14" 
+                        rel=nofollow><IMG id=mq_14 
+                        alt="Trả lời bài viết này với nhiều trích dẫn" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/multiquote_off.gif" 
+                        border=0></A> <A id=qr_14 onclick="return false" 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;p=14" 
+                        rel=nofollow><IMG alt="Trả lời nhanh bài viết này" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/quickreply.gif" 
+                        border=0></A> <!-- / controls --></DIV><!-- message, attachments, sig --></TD></TR></TBODY></TABLE><!-- post 14 popup menu -->
+                  <DIV class=vbmenu_popup id=postmenu_14_menu 
+                  style="DISPLAY: none">
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>NEO</TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/member.php?u=2">Xem hồ 
+                        sơ</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/private.php?do=newpm&amp;u=2" 
+                        rel=nofollow>Gửi tin nhắn tới NEO</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/">Tới trang web của 
+                    NEO</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/search.php?do=finduser&amp;u=2" 
+                        rel=nofollow>Tìm tất cả bài viết của NEO</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/profile.php?do=addlist&amp;userlist=buddy&amp;u=2">Thêm 
+                        NEO vào danh sách liên lạc của 
+                  bạn</A></TD></TR></TBODY></TABLE></DIV><!-- / post 14 popup menu --><!-- Start Post Thank You Hack --><!-- BEGIN TEMPLATE: post_thanks_box -->
+                  <SCRIPT type=text/javascript>
+<!--
+function post_thanks_give_14()
+{
+	do_thanks_button = new vB_AJAX_Handler(true)
+	do_thanks_button.onreadystatechange(thanks_button_Done_14)
+	do_thanks_button.send('showthread.php?do=post_thanks_button_ajax&p=14')
+	
+
+	
+	do_thanks_add = new vB_AJAX_Handler(true)
+	do_thanks_add.onreadystatechange(thanks_add_Done_14)
+	do_thanks_add.send('showthread.php?do=post_thanks_add_ajax&p=14')
+}
+function thanks_button_Done_14()
+{
+	if (do_thanks_button.handler.readyState == 4 && do_thanks_button.handler.status == 200)
+	{
+		fetch_object('post_thanks_button_14').innerHTML = do_thanks_button.handler.responseText
+	}
+}
+function thanks_add_Done_14()
+{
+	if (do_thanks_add.handler.readyState == 4 && do_thanks_add.handler.status == 200)
+	{
+		fetch_object('post_thanks_box_14').innerHTML = do_thanks_add.handler.responseText
+	}
+}
+function post_thanks_remove_all_14()
+{
+	do_thanks_button = new vB_AJAX_Handler(true)
+	do_thanks_button.onreadystatechange(thanks_button_Done_14)
+	do_thanks_button.send('showthread.php?do=post_thanks_button_add_ajax&p=14')
+	
+
+	
+	do_thanks_remove_all = new vB_AJAX_Handler(true)
+	do_thanks_remove_all.onreadystatechange(thanks_remove_all_Done_14)
+	do_thanks_remove_all.send('showthread.php?do=post_thanks_remove_all_ajax&p=14')
+}
+function thanks_remove_all_Done_14()
+{
+	if (do_thanks_remove_all.handler.readyState == 4 && do_thanks_remove_all.handler.status == 200)
+	{
+		fetch_object('post_thanks_box_14').innerHTML = do_thanks_remove_all.handler.responseText
+	}
+}
+function post_thanks_remove_user_14()
+{
+	do_thanks_button = new vB_AJAX_Handler(true)
+	do_thanks_button.onreadystatechange(thanks_button_Done_14)
+	do_thanks_button.send('showthread.php?do=post_thanks_button_add_ajax&p=14')
+	
+
+
+	do_thanks_remove_user = new vB_AJAX_Handler(true)
+	do_thanks_remove_user.onreadystatechange(thanks_remove_user_Done_14)
+	do_thanks_remove_user.send('showthread.php?do=post_thanks_remove_user_ajax&p=14')
+}
+function thanks_remove_user_Done_14()
+{
+	if (do_thanks_remove_user.handler.readyState == 4 && do_thanks_remove_user.handler.status == 200)
+	{
+		fetch_object('post_thanks_box_14').innerHTML = do_thanks_remove_user.handler.responseText
+	}
+}
+//-->
+</SCRIPT>
+
+                  <DIV id=post_thanks_box_14><!-- BEGIN TEMPLATE: post_thanks_postbit -->
+                  <DIV 
+                  style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 5px">
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=alt2 
+                      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px"><STRONG>The 
+                        Following 2 Users Say Thank You to NEO For This Useful 
+                        Post:</STRONG> </TD></TR>
+                    <TR>
+                      <TD class=alt1 colSpan=3>
+                        <DIV><!-- BEGIN TEMPLATE: post_thanks_box_bit --><A 
+                        href="http://ictdatto.com/forums/member.php?u=98">cuongsaco</A>&nbsp;(Hôm 
+                        nay), <!-- END TEMPLATE: post_thanks_box_bit --><!-- BEGIN TEMPLATE: post_thanks_box_bit --><A 
+                        href="http://ictdatto.com/forums/member.php?u=1">PhuongNT.PTIT</A>&nbsp;(28-08-2008) 
+<!-- END TEMPLATE: post_thanks_box_bit --></DIV></TD></TR></TBODY></TABLE></DIV><!-- END TEMPLATE: post_thanks_postbit --></DIV><!-- END TEMPLATE: post_thanks_box --><!-- End Post Thank You Hack --><!-- END TEMPLATE: postbit --></DIV><!-- BEGIN TEMPLATE: spacer_close --></DIV></DIV></DIV><!-- / close content container --><!-- END TEMPLATE: spacer_close --><!-- / post #14 --><!-- END TEMPLATE: postbit_wrapper --><!-- BEGIN TEMPLATE: ad_showthread_firstpost --><!-- END TEMPLATE: ad_showthread_firstpost --><!-- BEGIN TEMPLATE: postbit_wrapper --><!-- post #15 --><!-- BEGIN TEMPLATE: spacer_open --><!-- open content container -->
+                  <DIV align=center>
+                  <DIV class=page style="WIDTH: 100%; TEXT-ALIGN: left">
+                  <DIV 
+                  style="PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+                  align=left><!-- END TEMPLATE: spacer_open -->
+                  <DIV id=edit15 
+                  style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 0px"><!-- BEGIN TEMPLATE: postbit -->
+                  <TABLE class=tborder id=post15 cellSpacing=1 cellPadding=6 
+                  width="100%" align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>
+                        <DIV class=normal style="FLOAT: right">&nbsp; #<A 
+                        id=postcount15 
+                        href="http://ictdatto.com/forums/showpost.php?p=15&amp;postcount=2" 
+                        target=new rel=nofollow name=2><STRONG>2</STRONG></A> 
+                        &nbsp; <SPAN id=reputationmenu_15><A id=reputation_15 
+                        href="http://ictdatto.com/forums/reputation.php?p=15" 
+                        rel=nofollow><IMG class=inlineimg 
+                        alt="Thăng/Bớt điểm cho PhuongNT.PTIT" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/reputation.gif" 
+                        border=0></A></SPAN>
+                        <SCRIPT 
+                        type=text/javascript> vbrep_register("15")</SCRIPT>
+                         &nbsp; <A 
+                        href="http://ictdatto.com/forums/report.php?p=15" 
+                        rel=nofollow><IMG class=inlineimg 
+                        alt="Thông báo nội dung xấu" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/report.gif" 
+                        border=0></A> &nbsp; </DIV>
+                        <DIV class=normal><!-- status icon and date --><A 
+                        name=post15><IMG class=inlineimg alt=Old 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/post_old.gif" 
+                        border=0></A> 22-08-2008, 06:14 AM <!-- / status icon and date --></DIV></TD></TR>
+                    <TR>
+                      <TD class=alt2 
+                      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px"><!-- user info -->
+                        <TABLE cellSpacing=6 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=alt2><A 
+                              href="http://ictdatto.com/forums/member.php?u=1"><IMG 
+                              alt="PhuongNT.PTIT's Avatar" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/noavatar.gif" 
+                              border=0></A></TD>
+                            <TD noWrap>
+                              <DIV id=postmenu_15><A class=bigusername 
+                              href="http://ictdatto.com/forums/member.php?u=1">
+                              <TABLE 
+style="FILTER: glow(color=red, strength=5)">
+                                <TBODY>
+                                <TR>
+                                <TD><FONT class=bigusername 
+                                color=white><B>PhuongNT.PTIT</B> 
+                                </FONT></TD></TR></TBODY></TABLE></A><!-- BEGIN TEMPLATE: postbit_onlinestatus --><SPAN 
+                              class=smallfont>PhuongNT.PTIT is offline </SPAN><!-- END TEMPLATE: postbit_onlinestatus -->
+                              <SCRIPT type=text/javascript> vbmenu_register("postmenu_15", true); </SCRIPT>
+                              </DIV>
+                              <DIV class=smallfont>Administrator</DIV></TD>
+                            <TD width="100%">&nbsp;</TD>
+                            <TD vAlign=top noWrap>
+                              <DIV class=smallfont>
+                              <DIV>Tham gia ngày: Aug 2008</DIV>
+                              <DIV>Bài viết: 18 <!-- Start Post Thank You Hack --><BR>Thanks: 2 
+                              <BR>Thanked 1 Time in 1 Post <!-- End Post Thank You Hack --></DIV>
+                              <DIV><SPAN id=repdisplay_15_1><!-- BEGIN TEMPLATE: postbit_reputation --><IMG 
+                              class=inlineimg 
+                              alt="PhuongNT.PTIT đã tắt điểm góp phần" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/reputation_off.gif" 
+                              border=0> <!-- END TEMPLATE: postbit_reputation --></SPAN></DIV>
+                              <DIV><!-- BEGIN TEMPLATE: im_yahoo --><A 
+                              onclick="imwindow('yahoo', '1', 400, 200); return false;" 
+                              href="http://ictdatto.com/forums/showthread.php?t=5#"><IMG 
+                              alt="Gửi tin nhắn qua Yahoo chat với PhuongNT.PTIT" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/im_yahoo.gif" 
+                              border=0></A> 
+                              <!-- END TEMPLATE: im_yahoo --></DIV></DIV></TD></TR></TBODY></TABLE><!-- / user info --></TD></TR>
+                    <TR>
+                      <TD class=alt1 id=td_post_15><!-- message, attachments, sig --><!-- icon and title -->
+                        <DIV class=smallfont><IMG class=inlineimg alt="Mặc định" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/icon1.gif" 
+                        border=0> <STRONG>Ðề tài: Lập trình lồng 2 bức ảnh vào 
+                        nhau</STRONG> </DIV>
+                        <HR style="COLOR: #000000; BACKGROUND-COLOR: #000000" 
+                        SIZE=1>
+<!-- / icon and title --><!-- message -->
+                        <DIV id=post_message_15>Không thể bỏ qua được cuongsaco 
+                        ah</DIV><!-- / message --><!-- sig -->
+                        <DIV>__________________<BR>Tiêu diệt con người vô dụng 
+                        của quá khứ để trờ thành một con người hoàn thiện của 
+                        tương lai ... </DIV><!-- / sig -->
+                        <DIV style="MARGIN-TOP: 10px" align=right><!-- controls --><!-- Start Post Thank You Hack --><!-- BEGIN TEMPLATE: post_thanks_button --><A 
+                        id=post_thanks_button_15 
+                        onclick="post_thanks_give_15(); return false;" 
+                        href="http://ictdatto.com/forums/showthread.php?do=post_thanks_add&amp;p=15"><!-- BEGIN TEMPLATE: post_thanks_button_image --><IMG 
+                        alt=Thanks 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/post_thanks.gif" 
+                        border=0> <!-- END TEMPLATE: post_thanks_button_image --></A><!-- END TEMPLATE: post_thanks_button --><!-- End Post Thank You Hack --><A 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;p=15" 
+                        rel=nofollow><IMG 
+                        alt="Trả lời bài viết này với một trích dẫn" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/quote.gif" 
+                        border=0></A> <A onclick="return false" 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;p=15" 
+                        rel=nofollow><IMG id=mq_15 
+                        alt="Trả lời bài viết này với nhiều trích dẫn" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/multiquote_off.gif" 
+                        border=0></A> <A id=qr_15 onclick="return false" 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;p=15" 
+                        rel=nofollow><IMG alt="Trả lời nhanh bài viết này" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/quickreply.gif" 
+                        border=0></A> <!-- / controls --></DIV><!-- message, attachments, sig --></TD></TR></TBODY></TABLE><!-- post 15 popup menu -->
+                  <DIV class=vbmenu_popup id=postmenu_15_menu 
+                  style="DISPLAY: none">
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>PhuongNT.PTIT</TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/member.php?u=1">Xem hồ 
+                        sơ</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/search.php?do=finduser&amp;u=1" 
+                        rel=nofollow>Tìm tất cả bài viết của 
+                    PhuongNT.PTIT</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/profile.php?do=addlist&amp;userlist=buddy&amp;u=1">Thêm 
+                        PhuongNT.PTIT vào danh sách liên lạc của 
+                    bạn</A></TD></TR></TBODY></TABLE></DIV><!-- / post 15 popup menu --><!-- Start Post Thank You Hack --><!-- BEGIN TEMPLATE: post_thanks_box -->
+                  <SCRIPT type=text/javascript>
+<!--
+function post_thanks_give_15()
+{
+	do_thanks_button = new vB_AJAX_Handler(true)
+	do_thanks_button.onreadystatechange(thanks_button_Done_15)
+	do_thanks_button.send('showthread.php?do=post_thanks_button_ajax&p=15')
+	
+
+	
+	do_thanks_add = new vB_AJAX_Handler(true)
+	do_thanks_add.onreadystatechange(thanks_add_Done_15)
+	do_thanks_add.send('showthread.php?do=post_thanks_add_ajax&p=15')
+}
+function thanks_button_Done_15()
+{
+	if (do_thanks_button.handler.readyState == 4 && do_thanks_button.handler.status == 200)
+	{
+		fetch_object('post_thanks_button_15').innerHTML = do_thanks_button.handler.responseText
+	}
+}
+function thanks_add_Done_15()
+{
+	if (do_thanks_add.handler.readyState == 4 && do_thanks_add.handler.status == 200)
+	{
+		fetch_object('post_thanks_box_15').innerHTML = do_thanks_add.handler.responseText
+	}
+}
+function post_thanks_remove_all_15()
+{
+	do_thanks_button = new vB_AJAX_Handler(true)
+	do_thanks_button.onreadystatechange(thanks_button_Done_15)
+	do_thanks_button.send('showthread.php?do=post_thanks_button_add_ajax&p=15')
+	
+
+	
+	do_thanks_remove_all = new vB_AJAX_Handler(true)
+	do_thanks_remove_all.onreadystatechange(thanks_remove_all_Done_15)
+	do_thanks_remove_all.send('showthread.php?do=post_thanks_remove_all_ajax&p=15')
+}
+function thanks_remove_all_Done_15()
+{
+	if (do_thanks_remove_all.handler.readyState == 4 && do_thanks_remove_all.handler.status == 200)
+	{
+		fetch_object('post_thanks_box_15').innerHTML = do_thanks_remove_all.handler.responseText
+	}
+}
+function post_thanks_remove_user_15()
+{
+	do_thanks_button = new vB_AJAX_Handler(true)
+	do_thanks_button.onreadystatechange(thanks_button_Done_15)
+	do_thanks_button.send('showthread.php?do=post_thanks_button_add_ajax&p=15')
+	
+
+
+	do_thanks_remove_user = new vB_AJAX_Handler(true)
+	do_thanks_remove_user.onreadystatechange(thanks_remove_user_Done_15)
+	do_thanks_remove_user.send('showthread.php?do=post_thanks_remove_user_ajax&p=15')
+}
+function thanks_remove_user_Done_15()
+{
+	if (do_thanks_remove_user.handler.readyState == 4 && do_thanks_remove_user.handler.status == 200)
+	{
+		fetch_object('post_thanks_box_15').innerHTML = do_thanks_remove_user.handler.responseText
+	}
+}
+//-->
+</SCRIPT>
+
+                  <DIV id=post_thanks_box_15><!-- BEGIN TEMPLATE: post_thanks_postbit -->
+                  <DIV 
+                  style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 5px">
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=alt2 
+                      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px"><STRONG>Dưới 
+                        đây là những thành viên nói lời cám ơn PhuongNT.PTIT vì 
+                        bài viết rất hữu ích của PhuongNT.PTIT:</STRONG> </TD></TR>
+                    <TR>
+                      <TD class=alt1 colSpan=3>
+                        <DIV><!-- BEGIN TEMPLATE: post_thanks_box_bit --><A 
+                        href="http://ictdatto.com/forums/member.php?u=2">NEO</A>&nbsp;(27-08-2008) 
+<!-- END TEMPLATE: post_thanks_box_bit --></DIV></TD></TR></TBODY></TABLE></DIV><!-- END TEMPLATE: post_thanks_postbit --></DIV><!-- END TEMPLATE: post_thanks_box --><!-- End Post Thank You Hack --><!-- END TEMPLATE: postbit --></DIV><!-- BEGIN TEMPLATE: spacer_close --></DIV></DIV></DIV><!-- / close content container --><!-- END TEMPLATE: spacer_close --><!-- / post #15 --><!-- END TEMPLATE: postbit_wrapper -->
+                  <DIV id=lastpost></DIV></DIV><!-- start content table --><!-- BEGIN TEMPLATE: spacer_open --><!-- open content container -->
+                  <DIV align=center>
+                  <DIV class=page style="WIDTH: 100%; TEXT-ALIGN: left">
+                  <DIV 
+                  style="PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+                  align=left><!-- END TEMPLATE: spacer_open --><!-- / start content table --><!-- BEGIN TEMPLATE: hs_resize_controlbar --><!-- HS Images Resize -->
+                  <DIV class=highslide-caption id=the-caption><A class=control 
+                  style="DISPLAY: block; FLOAT: left" 
+                  onclick="return hs.previous(this)" 
+                  href="http://ictdatto.com/forums/showthread.php?t=5#"><FONT 
+                  color=sienna>Previous</FONT> <BR><SMALL 
+                  style="FONT-WEIGHT: normal; TEXT-TRANSFORM: none">left arrow 
+                  key</SMALL> </A><A class=control 
+                  style="DISPLAY: block; FLOAT: left; MARGIN-LEFT: 50px; TEXT-ALIGN: right" 
+                  onclick="return hs.next(this)" 
+                  href="http://ictdatto.com/forums/showthread.php?t=5#"><FONT 
+                  color=sienna>Next</FONT> <BR><SMALL 
+                  style="FONT-WEIGHT: normal; TEXT-TRANSFORM: none">right arrow 
+                  key</SMALL> </A><A class=control 
+                  onclick="return hs.close(this)" 
+                  href="http://ictdatto.com/forums/showthread.php?t=5#"><FONT 
+                  color=sienna>Close</FONT></A> <A 
+                  class="highslide-move control" onclick="return false" 
+                  href="http://ictdatto.com/forums/showthread.php?t=5#"><FONT 
+                  color=sienna>Move</FONT></A> 
+                  <DIV style="CLEAR: both"></DIV></DIV><!-- / HS Images Resize --><!-- END TEMPLATE: hs_resize_controlbar --><!-- controls below postbits -->
+                  <TABLE style="MARGIN-TOP: -3px" cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY>
+                    <TR vAlign=top>
+                      <TD class=smallfont><A 
+                        href="http://ictdatto.com/forums/newreply.php?do=newreply&amp;noquote=1&amp;p=15" 
+                        rel=nofollow><IMG alt="Trả lời" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/reply.gif" 
+                        border=0></A></TD></TR></TBODY></TABLE><!-- / controls below postbits --><!-- thread tags --><BR>
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>
+                        <DIV class=normal style="FLOAT: right"><A 
+                        id=tag_edit_link 
+                        href="http://ictdatto.com/forums/threadtag.php?t=5">Chỉnh 
+                        sửa thẻ</A> </DIV><A name=taglist></A><A 
+                        href="http://ictdatto.com/forums/tags.php">Thẻ</A> 
+</TD></TR>
+                    <TR>
+                      <TD class="alt1 smallfont" id=tag_list_cell><!-- BEGIN TEMPLATE: tagbit_wrapper --><I>None</I> 
+                        <IMG class=inlineimg id=tag_form_progress 
+                        style="DISPLAY: none" alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/11x11progress.gif"> 
+<!-- END TEMPLATE: tagbit_wrapper --></TD></TR></TBODY></TABLE>
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_ajax_taglist.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_ajax_tagsugg.js" 
+                  type=text/javascript></SCRIPT>
+<!-- / thread tags --><!-- BEGIN TEMPLATE: ad_showthread_beforeqr --><!-- END TEMPLATE: ad_showthread_beforeqr --><!-- lightbox scripts -->
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_lightbox.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+	<!--
+	vBulletin.register_control("vB_Lightbox_Container", "posts", 1);
+	//-->
+	</SCRIPT>
+<!-- / lightbox scripts --><!-- multiquote scripts -->
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_multi_quote.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+	<!--
+	var mqlimit = 0;
+	//-->
+	</SCRIPT>
+<!-- / multiquote scripts --><!-- ajax errors table -->
+                  <TABLE class=tborder id=ajax_post_errors 
+                  style="DISPLAY: none; POSITION: absolute" cellSpacing=1 
+                  cellPadding=6 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead><SPAN style="FLOAT: right"><INPUT class=button id=ajax_post_errors_closebtn onclick=vB_QuickEditor.hide_errors() type=button value=" X "></SPAN> 
+                        Thông báo từ diễn đàn </TD></TR>
+                    <TR>
+                      <TD class=alt2 id=ajax_post_errors_message 
+                      colSpan=2>&nbsp;</TD></TR>
+                    <TR>
+                      <TD class=tfoot align=middle colSpan=2><A 
+                        onclick="vB_QuickEditor.abort(); return false;" 
+                        href="http://ictdatto.com/forums/showthread.php?t=5#">Hũy 
+                        thay đổi</A></TD></TR></TBODY></TABLE><!-- / ajax errors table --><!-- scripts for quick reply and quick edit --><!-- BEGIN TEMPLATE: editor_clientscript --><!-- Editor Scripts -->
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_textedit.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+<!--
+var fontoptions = new Array("Arial", "Arial Black", "Arial Narrow", "Book Antiqua", "Century Gothic", "Comic Sans MS", "Courier New", "Fixedsys", "Franklin Gothic Medium", "Garamond", "Georgia", "Impact", "Lucida Console", "Lucida Sans Unicode", "Microsoft Sans Serif", "Palatino Linotype", "System", "Tahoma", "Times New Roman", "Trebuchet MS", "Verdana");
+var sizeoptions = new Array(1, 2, 3, 4, 5, 6, 7);
+var smilieoptions = {  };
+
+var istyles = { "pi_button_down" : [ "#98B5E2", "#000000", "0px", "1px solid #316AC5" ], "pi_button_hover" : [ "#C1D2EE", "#000000", "0px", "1px solid #316AC5" ], "pi_button_selected" : [ "#F1F6F8", "#000000", "0px", "1px solid #316AC5" ], "pi_menu_down" : [ "#98B5E2", "#316AC5", "0px", "1px solid #316AC5" ], "pi_menu_hover" : [ "#C1D2EE", "#316AC5", "0px", "1px solid #316AC5" ], "pi_menu_normal" : [ "#FFFFFF", "#000000", "0px", "1px solid #FFFFFF" ], "pi_popup_down" : [ "#98B5E2", "#000000", "0px", "1px solid #316AC5" ], "pi_button_normal" : [ "#222222", "#626262", "1px", "none" ] };
+
+var smiliewindow_x = 240;
+var smiliewindow_y = 280;
+
+var ignorequotechars = 0;
+var allowbasicbbcode = true;
+
+// vB Phrases
+vbphrase["wysiwyg_please_wait"]          = "Vui lòng đợi một chút để soạn thảo WYSIWYG hoàn thành việc nạp dữ liệu ...";
+vbphrase["wysiwyg_initialized"]          = "Khởi tạo soạn thảo WYSIWYG từ %1$s đến %2$s giây.";
+vbphrase["wysiwyg_command_invalid"]      = "Lệnh này không hợp lệ hoặc không được thực thi.";
+vbphrase["moz_must_select_text"]         = "Mozilla yêu cầu bạn phải chỉ định một vài ký tự để chức năng này làm việc";
+vbphrase["moz_edit_config_file"]         = "Bạn cần sửa lại cấu hình Mozilla để thực thi tác vụ này.";
+vbphrase["enter_tag_option"]             = "Hãy nhập vào tùy chọn cho thẻ %1$s:";
+vbphrase["must_select_text_to_use"]      = "Bạn phải nhập vào một vài ký tự khi sử dụng chức năng này.";
+vbphrase["browser_is_safari_no_wysiwyg"] = "The Safari browser does not support WYSIWYG mode.";
+vbphrase["enter_option_x_tag"]           = "Nhập vào tùy chọn cho thẻ [%1$s]:";
+vbphrase["enter_text_to_be_formatted"]   = "Nhập vào văn bản để định dạng";
+vbphrase["enter_link_text"]              = "Nhập vào ký tự để hiển thị thay cho liên kết (nếu muốn):";
+vbphrase["enter_list_type"]              = "Bạn muốn tạo kiểu danh sách nào? Nhập '1' cho danh sách dạng ký tự số, nhập 'a' cho danh sách alphabetical, hoặc cho phép bỏ trống để tạo danh sách nút đầu dòng:";
+vbphrase["enter_list_item"]              = "Nhập vào mục chọn danh sách.\r\nCho phép hộp rỗng hoặc nhấn \"Hủy bỏ\" để hoàn thành danh sách:";
+vbphrase["must_enter_subject"]           = "Bạn phải nhập vào Tên / Tiêu đề !";
+vbphrase["message_too_short"]            = "Nội dung bạn nhập vào quá ngắn. Giới hạn nội dung bài viết của bạn tối thiểu là %1$s ký tự.";
+vbphrase["enter_link_url"]               = "Vui lòng nhập vào URL đối với liên kết của bạn:";
+vbphrase["enter_image_url"]              = "Hãy nhập URL đối với ảnh của bạn:";
+vbphrase["enter_email_link"]             = "Hãy nhập địa chỉ email để liên kết:";
+vbphrase["complete_image_verification"]  = "You did not complete the Image Verification";
+vbphrase["iespell_not_installed"]        = "ieSpell is a spell-checking tool for Internet Explorer.\r\n\r\nIf you would like to download ieSpell, click OK; otherwise click Cancel.\r\n\r\nieSpell can be downloaded from http://www.iespell.com";
+vbphrase["click_quick_reply_icon"]       = "Vui lòng click vào biểu tượng \"Phúc đáp nhanh\" ở bài trên để thực hiện trả lời nhanh.";
+vbphrase["insert_all"]                   = "Chèn tất cả";
+
+//-->
+</SCRIPT>
+<!-- / Editor Scripts --><!-- END TEMPLATE: editor_clientscript -->
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_quick_edit.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+		<!--
+		vB_AJAX_QuickEdit_Init('posts');
+		//-->
+		</SCRIPT>
+<!-- / scripts for quick reply and quick edit --><!-- quick reply --><BR>
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_quick_reply.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <FORM id=qrform name=vbform 
+                  onsubmit="return qr_prepare_submit(this, 10);" 
+                  action=newreply.php?do=postreply&amp;t=5 method=post>
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <THEAD>
+                    <TR>
+                      <TD class=tcat colSpan=2><A style="FLOAT: right" 
+                        onclick="return toggle_collapse('quickreply');" 
+                        href="http://ictdatto.com/forums/showthread.php?t=5#top"><IMG 
+                        id=collapseimg_quickreply alt="" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/collapse_tcat.gif" 
+                        border=0></A> Trả lời nhanh </TD></TR></THEAD>
+                    <TBODY id=qr_error_tbody style="DISPLAY: none">
+                    <TR>
+                      <TD class=thead>Đã xảy ra lỗi với sự kiện của bạn</TD></TR>
+                    <TR>
+                      <TD class=alt1 id=qr_error_td></TD></TR>
+                    <TR>
+                      <TD class=tfoot align=middle><SPAN class=smallfont><A 
+                        onclick="return qr_hide_errors()" 
+                        href="http://ictdatto.com/forums/showthread.php?t=5#">Okay</A></SPAN></TD></TR></TBODY>
+                    <TBODY id=collapseobj_quickreply>
+                    <TR>
+                      <TD class=panelsurround align=middle>
+                        <DIV class=panel>
+                        <DIV style="MAX-WIDTH: 640px; WIDTH: auto! important" 
+                        align=left>
+                        <DIV class=smallfont>Tin nhắn:</DIV>
+                        <DIV class=vBulletin_editor id=vB_Editor_QR>
+                        <SCRIPT type=text/javascript>
+		<!--
+			var threaded_mode = 0;
+			var require_click = 0;
+			var is_last_page = 1; // leave for people with cached JS files
+			var allow_ajax_qr = 1;
+			var ajax_last_post = 1219360499;
+		// -->
+		</SCRIPT>
+<!-- BEGIN TEMPLATE: showthread_quickreply -->
+                        <DIV class=controlbar id=vB_Editor_QR_controls>
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_removeformat><IMG height=20 
+                              alt="Hủy bỏ định dạng văn bản" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/removeformat.gif" 
+                              width=21></DIV></TD>
+                            <TD><IMG height=20 alt="" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/separator.gif" 
+                              width=6></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_bold><IMG height=20 alt=Ðậm 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/bold.gif" 
+                              width=21></DIV></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_italic><IMG height=20 
+                              alt=Nghiêng 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/italic.gif" 
+                              width=21></DIV></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_underline><IMG height=20 
+                              alt="Gạch dưới" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/underline.gif" 
+                              width=21></DIV></TD>
+                            <TD><IMG height=20 alt="" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/separator.gif" 
+                              width=6></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_popup_forecolor title=Colors>
+                              <TABLE cellSpacing=0 cellPadding=0 border=0>
+                                <TBODY>
+                                <TR>
+                                <TD id=vB_Editor_QR_color_out><IMG height=16 
+                                alt="" 
+                                src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/color.gif" 
+                                width=21><BR><IMG id=vB_Editor_QR_color_bar 
+                                style="BACKGROUND-COLOR: black" height=4 alt="" 
+                                src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/clear.gif" 
+                                width=21></TD>
+                                <TD class=alt_pickbutton><IMG height=16 alt="" 
+                                src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/menupop.gif" 
+                                width=11></TD></TR></TBODY></TABLE></DIV></TD>
+                            <TD><IMG height=20 alt="" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/separator.gif" 
+                              width=6></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_createlink><IMG height=20 
+                              alt="Chèn liên kết" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/createlink.gif" 
+                              width=21></DIV></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_insertimage><IMG height=20 
+                              alt="Chèn hình ảnh" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/insertimage.gif" 
+                              width=21></DIV></TD>
+                            <TD><IMG height=20 alt="" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/separator.gif" 
+                              width=6></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_wrap0_quote><IMG height=20 
+                              alt="Đặt trong thẻ [QUOCTE]." 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/quote(1).gif" 
+                              width=21></DIV></TD>
+                            <TD width="100%">&nbsp;</TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_spelling><IMG height=20 
+                              alt="Kiểm tra chính tả" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/spelling.gif" 
+                              width=21></DIV></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_resize_0_99><IMG height=9 
+                              alt="Decrease Size" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/resize_0.gif" 
+                              width=21></DIV>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_resize_1_99><IMG height=9 
+                              alt="Increase Size" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/resize_1.gif" 
+                              width=21></DIV></TD>
+                            <TD>
+                              <DIV class=imagebutton 
+                              id=vB_Editor_QR_cmd_switchmode><IMG height=20 
+                              alt="Chuyển chế độ soạn thảo" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/switchmode.gif" 
+                              width=21></DIV></TD></TR></TBODY></TABLE></DIV>
+                        <DIV class=controlbar style="PADDING-RIGHT: 8px">
+                        <FIELDSET 
+                        style="BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px"><TEXTAREA id=vB_Editor_QR_textarea dir=ltr style="WIDTH: 100%; HEIGHT: 100px" tabIndex=1 name=message rows=10 cols=60></TEXTAREA> 
+                        </FIELDSET> <!--width:520px--></DIV><INPUT 
+                        id=vB_Editor_QR_mode type=hidden value=1 name=wysiwyg> 
+                        <INPUT type=hidden value=0 name=styleid>
+                        <SCRIPT type=text/javascript>
+<!--
+vB_Editor['vB_Editor_QR'] = new vB_Text_Editor('vB_Editor_QR', 1, '73', '1');
+var QR_EditorID = 'vB_Editor_QR';
+//-->
+</SCRIPT>
+                         <!-- END TEMPLATE: showthread_quickreply --></DIV>
+                        <FIELDSET class=fieldset 
+                        style="MARGIN: 3px 0px 0px"><LEGEND>Tùy chọn</LEGEND>
+                        <DIV 
+                        style="PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px"><LABEL 
+                        for=qr_quickreply><INPUT id=qr_quickreply accessKey=w 
+                        tabIndex=4 type=checkbox value=1 name=quickreply>kèm 
+                        theo trích dẫn của bài trên.</LABEL> </DIV></FIELDSET> 
+                        </DIV></DIV>
+                        <DIV style="MARGIN-TOP: 6px"><INPUT type=hidden value=1 
+                        name=fromquickreply> <INPUT type=hidden name=s> <INPUT 
+                        type=hidden 
+                        value=1247724873-708baee1ab4ea9297b4440c23b3b78f22e9cc484 
+                        name=securitytoken> <INPUT type=hidden value=postreply 
+                        name=do> <INPUT id=qr_threadid type=hidden value=5 
+                        name=t> <INPUT id=qr_postid type=hidden 
+                        value="who cares" name=p> <INPUT id=qr_specifiedpost 
+                        type=hidden value=0 name=specifiedpost> <INPUT 
+                        type=hidden value=1 name=parseurl> <INPUT type=hidden 
+                        value=98 name=loggedinuser> <INPUT class=button id=qr_submit title="(Alt + S)" accessKey=s onclick="clickedelm = this.value" tabIndex=2 type=submit value="Trả lời bài viết" name=sbutton> 
+<INPUT class=button id=qr_preview title="(Alt + X)" accessKey=x onclick="clickedelm = this.value" tabIndex=3 type=submit value="Chuyển nâng cao" name=preview> 
+                        </DIV>
+                        <DIV id=qr_posting_msg 
+                        style="MARGIN-TOP: 6px; DISPLAY: none" align=center><IMG 
+                        style="VERTICAL-ALIGN: middle" 
+                        alt="Đang trả lời nhanh - Bạn hãy đợi trong giây lát" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/progress.gif">&nbsp;<STRONG>Đang 
+                        trả lời nhanh - Bạn hãy đợi trong giây lát</STRONG> 
+                        </DIV></TD></TR></TBODY></TABLE></FORM>
+                  <SCRIPT type=text/javascript>
+	<!--
+		// initialize quick reply
+		qr_init();
+	//-->
+	</SCRIPT>
+<!-- / quick reply --><!-- next / previous links --><BR>
+                  <DIV class=smallfont align=center><STRONG>«</STRONG> <A 
+                  href="http://ictdatto.com/forums/showthread.php?t=5&amp;goto=nextoldest" 
+                  rel=nofollow>Chủ đề kế trước</A> | <A 
+                  href="http://ictdatto.com/forums/showthread.php?t=5&amp;goto=nextnewest" 
+                  rel=nofollow>Chủ đề tiếp theo</A> <STRONG>»</STRONG> </DIV><!-- / next / previous links --><!-- currently active users --><BR>
+                  <TABLE class=tborder cellSpacing=1 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=tcat colSpan=2>Ðang đọc: 1 <SPAN 
+                        class=normal>(1 thành viên và 0 khách)</SPAN> </TD></TR>
+                    <TR>
+                      <TD class=alt1 colSpan=2><SPAN class=smallfont><!-- BEGIN TEMPLATE: forumdisplay_loggedinuser --><A 
+                        href="http://ictdatto.com/forums/member.php?u=98">cuongsaco</A> 
+<!-- END TEMPLATE: forumdisplay_loggedinuser --></SPAN></TD></TR></TBODY></TABLE><!-- end currently active users --><!-- popup menu contents --><BR><!-- thread tools menu -->
+                  <DIV class=vbmenu_popup id=threadtools_menu 
+                  style="DISPLAY: none">
+                  <FORM name=threadadminform action=postings.php?t=5&amp;pollid= 
+                  method=post>
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>Ðiều Chỉnh<A 
+                      name=goto_threadtools></A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><IMG class=inlineimg 
+                        alt="Tạo trang in" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/printer.gif"> 
+                        <A accessKey=3 
+                        href="http://ictdatto.com/forums/printthread.php?t=5" 
+                        rel=nofollow>Tạo trang in</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><IMG class=inlineimg 
+                        alt="Email trang này" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/sendtofriend.gif"> 
+                        <A 
+                        href="http://ictdatto.com/forums/sendmessage.php?do=sendtofriend&amp;t=5" 
+                        rel=nofollow>Email trang này</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><IMG class=inlineimg 
+                        alt=Subscription 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/subscribe.gif"> 
+                        <A 
+                        href="http://ictdatto.com/forums/subscription.php?do=addsubscription&amp;t=5" 
+                        rel=nofollow>Theo dõi đề tài này</A> 
+                  </TD></TR></TBODY></TABLE></FORM></DIV><!-- / thread tools menu --><!-- **************************************************** --><!-- thread display mode menu -->
+                  <DIV class=vbmenu_popup id=displaymodes_menu 
+                  style="DISPLAY: none">
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>Chọn hiển thị<A 
+                        name=goto_displaymodes></A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option title=nohilite><IMG 
+                        class=inlineimg alt="Chế độ bình thường" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/mode_linear.gif"> 
+                        <STRONG>Chế độ bình thường</STRONG></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><IMG class=inlineimg 
+                        alt="Chế độ pha trộn" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/mode_hybrid.gif"> 
+                        <A 
+                        href="http://ictdatto.com/forums/showthread.php?mode=hybrid&amp;t=5">Chuyển 
+                        sang chế độ Pha trộn</A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><IMG class=inlineimg 
+                        alt="Chuyển sang chế độ dạng cây" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/mode_threaded.gif"> 
+                        <A 
+                        href="http://ictdatto.com/forums/showthread.php?p=14&amp;mode=threaded#post14">Chuyển 
+                        sang chế độ dạng cây</A></TD></TR></TBODY></TABLE></DIV><!-- / thread display mode menu --><!-- **************************************************** --><!-- thread search menu -->
+                  <DIV class=vbmenu_popup id=threadsearch_menu 
+                  style="DISPLAY: none">
+                  <FORM action=search.php?do=process&amp;searchthreadid=5 
+                  method=post>
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>Tìm kiếm trong chủ đề<A 
+                        name=goto_threadsearch></A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option title=nohilite><INPUT 
+                        type=hidden name=s> <INPUT type=hidden 
+                        value=1247724873-708baee1ab4ea9297b4440c23b3b78f22e9cc484 
+                        name=securitytoken> <INPUT type=hidden value=process 
+                        name=do> <INPUT type=hidden value=5 name=searchthreadid> 
+                        <INPUT class=bginput size=25 name=query><!-- BEGIN TEMPLATE: gobutton --> <INPUT class=button type=submit value=Go> <!-- END TEMPLATE: gobutton --><BR></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option><A 
+                        href="http://ictdatto.com/forums/search.php?searchthreadid=5">Tìm 
+                        kiếm nâng cao</A></TD></TR></TBODY></TABLE></FORM></DIV><!-- / thread search menu --><!-- **************************************************** --><!-- thread rating menu -->
+                  <DIV class=vbmenu_popup id=threadrating_menu 
+                  style="DISPLAY: none">
+                  <FORM id=showthread_threadrate_form action=threadrate.php?t=5 
+                  method=post>
+                  <TABLE cellSpacing=1 cellPadding=4 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=thead>Cho Ðiểm Chủ Ðề Này<A 
+                        name=goto_threadrating></A></TD></TR>
+                    <TR>
+                      <TD class=vbmenu_option id=threadrating_options 
+                      title=nohilite>
+                        <DIV><IMG class=inlineimg alt="Rất tốt" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/rating_5.gif"><LABEL 
+                        for=vote5><INPUT id=vote5 type=radio value=5 
+                        name=vote>Rất tốt</LABEL></DIV>
+                        <DIV><IMG class=inlineimg alt=Tốt 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/rating_4.gif"><LABEL 
+                        for=vote4><INPUT id=vote4 type=radio value=4 
+                        name=vote>Tốt</LABEL></DIV>
+                        <DIV><IMG class=inlineimg alt="Trung bình" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/rating_3.gif"><LABEL 
+                        for=vote3><INPUT id=vote3 type=radio value=3 
+                        name=vote>Trung bình</LABEL></DIV>
+                        <DIV><IMG class=inlineimg alt=Tệ 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/rating_2.gif"><LABEL 
+                        for=vote2><INPUT id=vote2 type=radio value=2 
+                        name=vote>Tệ</LABEL></DIV>
+                        <DIV><IMG class=inlineimg alt="Quá tệ" 
+                        src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/rating_1.gif"><LABEL 
+                        for=vote1><INPUT id=vote1 type=radio value=1 
+                        name=vote>Quá tệ</LABEL></DIV></TD></TR>
+                    <TR id=threadrating_submit>
+                      <TD class=vbmenu_option title=nohilite 
+                        align=middle><INPUT type=hidden name=s> <INPUT 
+                        type=hidden 
+                        value=1247724873-708baee1ab4ea9297b4440c23b3b78f22e9cc484 
+                        name=securitytoken> <INPUT type=hidden value=5 name=t> 
+                        <INPUT type=hidden value=10 name=pp> <INPUT type=hidden 
+                        value=1 name=page> <INPUT class=button type=submit value="Phê Ðiểm"> 
+                    </TD></TR></TBODY></TABLE></FORM></DIV><!-- / thread rating menu -->
+                  <SCRIPT 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/vbulletin_ajax_threadrate.js" 
+                  type=text/javascript></SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+	<!--
+	vB_AJAX_ThreadRate_Init('showthread_threadrate_form');
+	var threadid = 5;
+	//-->
+	</SCRIPT>
+<!-- / popup menu contents --><!-- forum rules and admin links -->
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR vAlign=bottom>
+                      <TD vAlign=top width="100%"><!-- BEGIN TEMPLATE: forumrules -->
+                        <TABLE class=tborder cellSpacing=1 cellPadding=6 
+                        width=210 border=0>
+                          <THEAD>
+                          <TR>
+                            <TD class=thead><A style="FLOAT: right" 
+                              onclick="return toggle_collapse('forumrules')" 
+                              href="http://ictdatto.com/forums/showthread.php?t=5#top"><IMG 
+                              id=collapseimg_forumrules alt="" 
+                              src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/collapse_thead.gif" 
+                              border=0></A> Quyền viết bài của bạn 
+</TD></TR></THEAD>
+                          <TBODY id=collapseobj_forumrules>
+                          <TR>
+                            <TD class=alt1 noWrap>
+                              <DIV class=smallfont>
+                              <DIV>Bạn <STRONG>có thể</STRONG> viết các chủ đề 
+                              mới</DIV>
+                              <DIV>Bạn <STRONG>có thể</STRONG> viết bài trả 
+                              lời</DIV>
+                              <DIV>Bạn <STRONG>có thể</STRONG> viết bài đính 
+                              kèm</DIV>
+                              <DIV>Bạn <STRONG>có thể</STRONG> chỉnh sửa các bài 
+                              viết của bạn</DIV>
+                              <HR>
+
+                              <DIV><A 
+                              href="http://ictdatto.com/forums/misc.php?do=bbcode" 
+                              target=_blank>BB code</A> đang 
+                              <STRONG>Mở</STRONG></DIV>
+                              <DIV><A 
+                              href="http://ictdatto.com/forums/misc.php?do=showsmilies" 
+                              target=_blank>Smilies</A> đang 
+                              <STRONG>Mở</STRONG></DIV>
+                              <DIV><A 
+                              href="http://ictdatto.com/forums/misc.php?do=bbcode#imgcode" 
+                              target=_blank>[IMG]</A> code đang 
+                              <STRONG>Mở</STRONG></DIV>
+                              <DIV>HTML đang 
+                          <STRONG>Tắt</STRONG></DIV></DIV></TD></TR></TBODY></TABLE><!-- END TEMPLATE: forumrules --></TD>
+                      <TD class=smallfont align=right>
+                        <TABLE cellSpacing=0 cellPadding=0 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><!-- BEGIN TEMPLATE: forumjump -->
+                              <DIV class=smallfont 
+                              style="WHITE-SPACE: nowrap; TEXT-ALIGN: left">
+                              <FORM action=forumdisplay.php method=get><INPUT 
+                              type=hidden name=s> <INPUT type=hidden 
+                              name=daysprune> <STRONG>Chuyển 
+                              đến</STRONG><BR><SELECT 
+                              onchange=this.form.submit(); name=f> <OPTGROUP 
+                                label="Vùng Sites"> <OPTION value=cp>Khung điều 
+                                khiển</OPTION> <OPTION value=pm>Tin 
+                                nhắn</OPTION> <OPTION value=subs>Ðang theo 
+                                dõi</OPTION> <OPTION value=wol>Who's 
+                                Online</OPTION> <OPTION value=search>Tìm kiếm 
+                                trong diễn đàn</OPTION> <OPTION value=home>Trang 
+                                chủ</OPTION> </OPTGROUP> <OPTGROUP 
+                                label="Diễn Ðàn"> <OPTION class=fjdpth0 
+                                value=1>THÔNG BÁO CHUNG</OPTION> <OPTION 
+                                class=fjdpth1 value=2>&nbsp; &nbsp; Thông 
+                                báo</OPTION> <OPTION class=fjdpth1 
+                                value=3>&nbsp; &nbsp; Hướng dẫn sử dụng diễn 
+                                đàn</OPTION> <OPTION class=fjdpth1 
+                                value=4>&nbsp; &nbsp; Thắc mắc - Góp ý 
+                                kiến</OPTION> <OPTION class=fjdpth1 
+                                value=113>&nbsp; &nbsp; HỎI - ĐÁP NÓNG TRONG 
+                                NGÀY</OPTION> <OPTION class=fjdpth0 value=104>TƯ 
+                                LIỆU - LỊCH SỬ - KIẾN THỨC VĨ MÔ</OPTION> 
+                                <OPTION class=fjdpth1 value=118>&nbsp; &nbsp; 
+                                CUỘC SỐNG SỐ</OPTION> <OPTION class=fjdpth1 
+                                value=107>&nbsp; &nbsp; KIẾN THỨC VĨ MÔ</OPTION> 
+                                <OPTION class=fjdpth1 value=106>&nbsp; &nbsp; TƯ 
+                                LIỆU CÔNG NGHỆ</OPTION> <OPTION class=fjdpth1 
+                                value=105>&nbsp; &nbsp; LỊCH SỬ CÔNG 
+                                NGHỆ</OPTION> <OPTION class=fjdpth0 value=5>IT - 
+                                NETWORKING - COMMUNICATIONS</OPTION> <OPTION 
+                                class=fjdpth1 value=35>&nbsp; &nbsp; CÁC BÀI 
+                                VIẾT CÓ GIÁ TRỊ</OPTION> <OPTION class=fjdpth1 
+                                value=6>&nbsp; &nbsp; THẢO LUẬN CHUNG VỀ 
+                                IT-NETWORKING</OPTION> <OPTION class=fjdpth1 
+                                value=146>&nbsp; &nbsp; MICROSOFT 
+                                WINDOWS</OPTION> <OPTION class=fjdpth2 
+                                value=14>&nbsp; &nbsp; &nbsp; &nbsp; WINDOWS XP 
+                                - VISTA [*.versions]</OPTION> <OPTION 
+                                class=fjdpth2 value=11>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; WINDOWS SEVER 2003 - 2008</OPTION> 
+                                <OPTION class=fjdpth1 value=142>&nbsp; &nbsp; 
+                                NETWORK MANAGER</OPTION> <OPTION class=fjdpth2 
+                                value=110>&nbsp; &nbsp; &nbsp; &nbsp; ISA Server 
+                                [Windows Server 2003 - 2008]</OPTION> <OPTION 
+                                class=fjdpth2 value=111>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; Active Directory Windows Server 2003 - 
+                                2008</OPTION> <OPTION class=fjdpth1 
+                                value=8>&nbsp; &nbsp; EMAIL SERVER</OPTION> 
+                                <OPTION class=fjdpth1 value=9>&nbsp; &nbsp; 
+                                PROXY - FIREWALL</OPTION> <OPTION class=fjdpth1 
+                                value=117>&nbsp; &nbsp; LAN - WAN 
+                                NETWORKING</OPTION> <OPTION class=fjdpth1 
+                                value=20>&nbsp; &nbsp; VPN , MPLS, WIMAX, WAN 
+                                &amp; REMOVE ACCESS</OPTION> <OPTION 
+                                class=fjdpth1 value=21>&nbsp; &nbsp; VOICE, 
+                                VIDEO, WIRELESS, GPRS, BLUETOOTH</OPTION> 
+                                <OPTION class=fjdpth1 value=10>&nbsp; &nbsp; 
+                                THƯƠNG MẠI ĐIỆN TỬ - WEB SERVER 
+                                -WEBMASTER</OPTION> <OPTION class=fjdpth1 
+                                value=7>&nbsp; &nbsp; ONLINE COLLECTION 
+                                LAB</OPTION> <OPTION class=fjdpth2 
+                                value=145>&nbsp; &nbsp; &nbsp; &nbsp; OTHER 
+                                LAB</OPTION> <OPTION class=fjdpth2 
+                                value=143>&nbsp; &nbsp; &nbsp; &nbsp; CISCO 
+                                LAB</OPTION> <OPTION class=fjdpth2 
+                                value=144>&nbsp; &nbsp; &nbsp; &nbsp; MICROSOFT 
+                                LAB</OPTION> <OPTION class=fjdpth0 
+                                value=18>COMMUNICATIONS</OPTION> <OPTION 
+                                class=fjdpth1 value=112>&nbsp; &nbsp; THẢO LUẬN 
+                                CHUNG</OPTION> <OPTION class=fjdpth1 
+                                value=109>&nbsp; &nbsp; HỆ THỐNG THÔNG 
+                                TIN</OPTION> <OPTION class=fjdpth1 
+                                value=37>&nbsp; &nbsp; HỆ THỐNG TRUYỀN 
+                                DẪN</OPTION> <OPTION class=fjdpth0 value=23>BẢO 
+                                MẬT - GIẢI PHÁP</OPTION> <OPTION class=fjdpth1 
+                                value=42>&nbsp; &nbsp; CÁC BÀI VIẾT CÓ GIÁ 
+                                TRỊ</OPTION> <OPTION class=fjdpth1 
+                                value=43>&nbsp; &nbsp; AN TOÀN VÀ BẢO MẬT 
+                                MẠNG</OPTION> <OPTION class=fjdpth1 
+                                value=16>&nbsp; &nbsp; VIRUS - SPYWARE - 
+                                TROJAN</OPTION> <OPTION class=fjdpth1 
+                                value=44>&nbsp; &nbsp; GIẢI PHÁP CNTT TRONG 
+                                DOANH NGHIỆP</OPTION> <OPTION class=fjdpth0 
+                                value=12>TIN HỌC VĂN PHÒNG</OPTION> <OPTION 
+                                class=fjdpth1 value=36>&nbsp; &nbsp; CÁC BÀI 
+                                VIẾT CÓ GIÁ TRỊ</OPTION> <OPTION class=fjdpth1 
+                                value=80>&nbsp; &nbsp; INTERNET - CHAT - 
+                                MAIL</OPTION> <OPTION class=fjdpth1 
+                                value=15>&nbsp; &nbsp; MÁY VĂN PHÒNG</OPTION> 
+                                <OPTION class=fjdpth1 value=17>&nbsp; &nbsp; 
+                                MICROSOFT OFFICE</OPTION> <OPTION class=fjdpth1 
+                                value=13>&nbsp; &nbsp; WINDOWS XP, SEVER 2003 - 
+                                2008</OPTION> <OPTION class=fjdpth0 value=24>TIN 
+                                HỌC - LẬP TRÌNH</OPTION> <OPTION class=fjdpth1 
+                                value=25>&nbsp; &nbsp; THUẬT TOÁN - GIẢI 
+                                THUẬT</OPTION> <OPTION class=fjdpth1 
+                                value=26>&nbsp; &nbsp; C# 2005 - 2008</OPTION> 
+                                <OPTION class=fjdpth2 value=61>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; CÁC BÀI VIẾT CÓ GIÁ TRỊ</OPTION> 
+                                <OPTION class=fjdpth2 value=45>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; THỦ THUẬT - MẸO VẶT</OPTION> 
+                                <OPTION class=fjdpth3 value=51>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; CÁC BÀI VIẾT CÓ GIÁ 
+                                TRỊ</OPTION> <OPTION class=fjdpth3 
+                                value=46>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; ÂM THANH VÀ ĐỒ HỌA</OPTION> <OPTION 
+                                class=fjdpth3 value=47>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; CHUỖI VÀ THỜI GIAN</OPTION> 
+                                <OPTION class=fjdpth3 value=48>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; HỆ THỐNG - THƯ MỤC - 
+                                TẬP TIN - MẠNG</OPTION> <OPTION class=fjdpth3 
+                                value=49>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; ỨNG DỤNG - FORM - CONTROLS</OPTION> 
+                                <OPTION class=fjdpth3 value=50>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; CÁC THỦ THUẬT - MẸO 
+                                VẶT KHÁC</OPTION> <OPTION class=fjdpth2 
+                                value=52>&nbsp; &nbsp; &nbsp; &nbsp; CÁC BÀI 
+                                VIẾT HƯỚNG DẪN</OPTION> <OPTION class=fjsel 
+                                value=73 selected>&nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; CÁC BÀI VIẾT HƯỚNG DẪN</OPTION> 
+                                <OPTION class=fjdpth3 value=74>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; YÊU CẦU VIẾT BÀI 
+                                HƯỚNG DẪN</OPTION> <OPTION class=fjdpth2 
+                                value=53>&nbsp; &nbsp; &nbsp; &nbsp; MÃ 
+                                NGUỒN</OPTION> <OPTION class=fjdpth3 
+                                value=54>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; CHƯƠNG TRÌNH QUẢN LÝ</OPTION> <OPTION 
+                                class=fjdpth3 value=55>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; CHƯƠNG TRÌNH TIỆN 
+                                ÍCH</OPTION> <OPTION class=fjdpth3 
+                                value=56>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; CÁC CHƯƠNG TRÌNH KHÁC</OPTION> <OPTION 
+                                class=fjdpth2 value=57>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; MODULE - CLASS - USER CONTROL - 
+                                DLL</OPTION> <OPTION class=fjdpth3 
+                                value=75>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; MODULE - CLASS - USER CONTROL - 
+                                DLL</OPTION> <OPTION class=fjdpth3 
+                                value=76>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; YÊU CẦU MODULE - CLASS - DLL</OPTION> 
+                                <OPTION class=fjdpth2 value=58>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; CÔNG CỤ LẬP TRÌNH</OPTION> <OPTION 
+                                class=fjdpth3 value=71>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; CÔNG CỤ HỖ TRỢ LẬP TRÌNH 
+                                VIÊN</OPTION> <OPTION class=fjdpth3 
+                                value=72>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; YÊU CẦU CÔNG CỤ</OPTION> <OPTION 
+                                class=fjdpth2 value=77>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; BÁO CÁO</OPTION> <OPTION class=fjdpth3 
+                                value=78>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; BÁO CÁO VỚI CÔNG CỤ VS</OPTION> <OPTION 
+                                class=fjdpth3 value=79>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; BÁO CÁO VỚI CRYSTAL 
+                                REPORT</OPTION> <OPTION class=fjdpth1 
+                                value=59>&nbsp; &nbsp; OTHER 
+                                PROGRAMMING</OPTION> <OPTION class=fjdpth1 
+                                value=81>&nbsp; &nbsp; JAVA</OPTION> <OPTION 
+                                class=fjdpth2 value=82>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; Hướng dẫn hoàn chỉnh</OPTION> <OPTION 
+                                class=fjdpth2 value=83>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; JAVA SE</OPTION> <OPTION class=fjdpth2 
+                                value=84>&nbsp; &nbsp; &nbsp; &nbsp; JAVA 
+                                EE</OPTION> <OPTION class=fjdpth3 
+                                value=96>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; JSP, Servlet, JavaServer Faces</OPTION> 
+                                <OPTION class=fjdpth3 value=97>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; EJB và các công nghệ 
+                                khác trong J2EE</OPTION> <OPTION class=fjdpth3 
+                                value=98>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; Các dịch vụ Web (Web Services) và 
+                                XML</OPTION> <OPTION class=fjdpth3 
+                                value=99>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; Portal trong Java</OPTION> <OPTION 
+                                class=fjdpth2 value=85>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; JAVA ME</OPTION> <OPTION class=fjdpth3 
+                                value=100>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; Các bài hướng dẫn về Java ME</OPTION> 
+                                <OPTION class=fjdpth3 value=101>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; Lập trình thiết bị 
+                                di động với công nghệ Java ME</OPTION> <OPTION 
+                                class=fjdpth2 value=90>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; JADE</OPTION> <OPTION class=fjdpth2 
+                                value=94>&nbsp; &nbsp; &nbsp; &nbsp; Công cụ - 
+                                Môi trường phát triển JAVA</OPTION> <OPTION 
+                                class=fjdpth2 value=95>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; Mã nguồn JAVA</OPTION> <OPTION 
+                                class=fjdpth1 value=28>&nbsp; &nbsp; DATABASE 
+                                PROGRAMMER</OPTION> <OPTION class=fjdpth2 
+                                value=29>&nbsp; &nbsp; &nbsp; &nbsp; SQL SERVER 
+                                2005</OPTION> <OPTION class=fjdpth2 
+                                value=30>&nbsp; &nbsp; &nbsp; &nbsp; MICROSOFT 
+                                ACCESS 2003 - 2007</OPTION> <OPTION 
+                                class=fjdpth1 value=31>&nbsp; &nbsp; WEB 
+                                PROGRAMMER</OPTION> <OPTION class=fjdpth2 
+                                value=86>&nbsp; &nbsp; &nbsp; &nbsp; KIẾN THỨC 
+                                CƠ BẢN</OPTION> <OPTION class=fjdpth3 
+                                value=87>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; HTML</OPTION> <OPTION class=fjdpth3 
+                                value=88>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; JAVASCRIPT</OPTION> <OPTION class=fjdpth3 
+                                value=89>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; CSS</OPTION> <OPTION class=fjdpth3 
+                                value=131>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; XML</OPTION> <OPTION class=fjdpth3 
+                                value=102>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; Mẹo vặt - Thủ thuật</OPTION> <OPTION 
+                                class=fjdpth2 value=114>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; CÁC HỆ THỐNG WEB PHP</OPTION> <OPTION 
+                                class=fjdpth3 value=60>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; VBULLETIN</OPTION> <OPTION 
+                                class=fjdpth4 value=91>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mods</OPTION> 
+                                <OPTION class=fjdpth4 value=92>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                Styles</OPTION> <OPTION class=fjdpth4 
+                                value=93>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; Articles</OPTION> <OPTION 
+                                class=fjdpth3 value=116>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; MOODLE</OPTION> <OPTION 
+                                class=fjdpth4 value=122>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                MODULE</OPTION> <OPTION class=fjdpth4 
+                                value=123>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; Articles</OPTION> <OPTION 
+                                class=fjdpth3 value=119>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; JOOMLA</OPTION> <OPTION 
+                                class=fjdpth4 value=124>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                MODULES</OPTION> <OPTION class=fjdpth4 
+                                value=125>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; Articles</OPTION> <OPTION 
+                                class=fjdpth3 value=120>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; NUKE PRO</OPTION> <OPTION 
+                                class=fjdpth4 value=126>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                MODULES</OPTION> <OPTION class=fjdpth4 
+                                value=127>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; Articles</OPTION> <OPTION 
+                                class=fjdpth3 value=121>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; PHPBB</OPTION> <OPTION 
+                                class=fjdpth4 value=128>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MODS</OPTION> 
+                                <OPTION class=fjdpth4 value=129>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                Articles</OPTION> <OPTION class=fjdpth3 
+                                value=132>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; SOURCES - SCRIPTS</OPTION> <OPTION 
+                                class=fjdpth4 value=134>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                SCRIPTS</OPTION> <OPTION class=fjdpth4 
+                                value=133>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; SOURCES WEBSITE 
+                                PHP</OPTION> <OPTION class=fjdpth4 
+                                value=103>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; &nbsp; GeSHi - Generic Syntax 
+                                Highlighter</OPTION> <OPTION class=fjdpth0 
+                                value=22>PHẦN CỨNG - THIẾT BỊ</OPTION> <OPTION 
+                                class=fjdpth1 value=38>&nbsp; &nbsp; CÁC BÀI 
+                                VIẾT CÓ GIÁ TRỊ</OPTION> <OPTION class=fjdpth1 
+                                value=19>&nbsp; &nbsp; NOTEBOOKS</OPTION> 
+                                <OPTION class=fjdpth1 value=40>&nbsp; &nbsp; 
+                                THIẾT BỊ MẠNG</OPTION> <OPTION class=fjdpth1 
+                                value=39>&nbsp; &nbsp; THIẾT BỊ MÁY 
+                                TÍNH</OPTION> <OPTION class=fjdpth1 
+                                value=41>&nbsp; &nbsp; THIẾT BỊ VĂN 
+                                PHÒNG</OPTION> <OPTION class=fjdpth0 
+                                value=130>SOFTWARE - EBOOKS</OPTION> <OPTION 
+                                class=fjdpth1 value=33>&nbsp; &nbsp; PHẦN 
+                                MỀM</OPTION> <OPTION class=fjdpth2 
+                                value=66>&nbsp; &nbsp; &nbsp; &nbsp; HƯỚNG DẪN 
+                                SỬ DỤNG PHẦN MỀM</OPTION> <OPTION class=fjdpth2 
+                                value=67>&nbsp; &nbsp; &nbsp; &nbsp; PHẦN MỀM 
+                                ỨNG DỤNG</OPTION> <OPTION class=fjdpth2 
+                                value=68>&nbsp; &nbsp; &nbsp; &nbsp; YÊU CẦU 
+                                PHẦN MỀM</OPTION> <OPTION class=fjdpth1 
+                                value=32>&nbsp; &nbsp; TÀI NGUYÊN HỌC 
+                                TẬP</OPTION> <OPTION class=fjdpth2 
+                                value=62>&nbsp; &nbsp; &nbsp; &nbsp; EBOOK VĂN 
+                                PHÒNG</OPTION> <OPTION class=fjdpth2 
+                                value=63>&nbsp; &nbsp; &nbsp; &nbsp; EBOOK LẬP 
+                                TRÌNH</OPTION> <OPTION class=fjdpth2 
+                                value=64>&nbsp; &nbsp; &nbsp; &nbsp; EBOOK VIỄN 
+                                THÔNG</OPTION> <OPTION class=fjdpth2 
+                                value=65>&nbsp; &nbsp; &nbsp; &nbsp; YÊU CẦU 
+                                EBOOK</OPTION> <OPTION class=fjdpth0 
+                                value=34>OTHERS</OPTION> <OPTION class=fjdpth1 
+                                value=69>&nbsp; &nbsp; PHÚ THỌ 
+                                PRONVICES</OPTION> <OPTION class=fjdpth1 
+                                value=70>&nbsp; &nbsp; HƯỚNG PHÁT TRIỂN</OPTION> 
+                                <OPTION class=fjdpth1 value=27>&nbsp; &nbsp; MY 
+                                LEARNING SYSTEMS</OPTION> <OPTION class=fjdpth2 
+                                value=136>&nbsp; &nbsp; &nbsp; &nbsp; 
+                                AGENT-ORIENTED SOFTWARE DEVELOPMENT</OPTION> 
+                                <OPTION class=fjdpth2 value=141>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; PROJECT MANAGEMENT</OPTION> 
+                                <OPTION class=fjdpth2 value=138>&nbsp; &nbsp; 
+                                &nbsp; &nbsp; NETWORK MANAGER</OPTION> <OPTION 
+                                class=fjdpth2 value=135>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; EMBEDDED SYSTEMS</OPTION> <OPTION 
+                                class=fjdpth2 value=137>&nbsp; &nbsp; &nbsp; 
+                                &nbsp; SYSTEM PROGRAMMING AND DEVICE 
+                                CONTROLLING</OPTION> <OPTION class=fjdpth2 
+                                value=139>&nbsp; &nbsp; &nbsp; &nbsp; E-COMMERCE 
+                                SYSTEM DEVELOPMENT</OPTION> </OPTGROUP></SELECT><!-- BEGIN TEMPLATE: gobutton --> 
+<INPUT class=button type=submit value=Go> <!-- END TEMPLATE: gobutton --></FORM></DIV><!-- END TEMPLATE: forumjump --></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- /forum rules and admin links --><BR><!-- BEGIN TEMPLATE: footer --><BR><BR>
+                  <TABLE class=page cellSpacing=0 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD align=left>
+                        <DIV class=smallfont align=left>Múi giờ GMT. Hiện tại là 
+                        <SPAN class=time>01:14 PM</SPAN>.</DIV></TD>
+                      <TD align=right>
+                        <DIV class=smallfont><STRONG><A 
+                        href="http://ictdatto.com/forums/forumdisplay.php?do=markread" 
+                        rel=nofollow>Ðánh dấu đã đọc</A> | <A 
+                        href="http://ictdatto.com/forums/showgroups.php" 
+                        rel=nofollow>Điều hành diễn đàn</A> <!-- member logout -->| <A 
+                        onclick="return log_out('Bạn chắc chắn nói lời cáo từ diễn đàn?')" 
+                        href="http://ictdatto.com/forums/login.php?do=logout&amp;logouthash=1247724873-708baee1ab4ea9297b4440c23b3b78f22e9cc484">cuongsaco[<I>Cáo 
+                        từ</I>]</A> 
+                    <!-- end member logout --></STRONG></DIV></TD></TR></TBODY></TABLE><!-- BEGIN TEMPLATE: spacer_close --></DIV></DIV></DIV><!-- / close content container --><!-- END TEMPLATE: spacer_close -->
+                  <FORM action=index.php method=get>
+                  <TABLE class=page cellSpacing=0 cellPadding=6 width="100%" 
+                  align=center border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=tfoot><SELECT 
+                        onchange="switch_id(this, 'lang')" name=langid> 
+                          <OPTGROUP label="Chọn nhanh ngôn ngữ"> <OPTION 
+                            class="" value=1>-- English (US)</OPTION> <OPTION 
+                            class="" value=2 selected>-- Việt Nam (VN)</OPTION> 
+                          </OPTGROUP></SELECT> </TD>
+                      <TD class=tfoot align=right width="100%">
+                        <DIV class=smallfont><STRONG><A 
+                        href="http://ictdatto.com/forums/sendmessage.php" 
+                        rel=nofollow>Contact Us</A> - <A 
+                        href="http://ictdatto.com/forums">Home</A> - <A 
+                        href="http://ictdatto.com/forums/archive/index.php">Lưu 
+                        trữ</A> - <A 
+                        onclick="self.scrollTo(0, 0); return false;" 
+                        href="http://ictdatto.com/forums/showthread.php?t=5#top">Trở 
+                        Lên Trên</A> </STRONG></DIV></TD></TR></TBODY></TABLE><BR>
+                  <DIV align=center>
+                  <DIV class=smallfont align=center><!-- Do not remove this copyright notice --><BR><EM>vBulletin 
+                  skin developed by:</EM> <STRONG>http://ictdatto.com</STRONG> 
+                  <BR>Version: vBulletin v3.7.2 Copyright ©2000-2009, Jelsoft 
+                  Enterprises Ltd. <BR><!-- Do not remove this copyright notice --></DIV>
+                  <DIV class=smallfont align=center><!-- Do not remove <img src="http://ictdatto.com/forums/cron.php?rand=29313" alt="" width="1" height="1" border="0" /> or your scheduled tasks will cease to function --><IMG 
+                  height=1 alt="" 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/cron.gif" 
+                  width=1 border=0> <!-- Do not remove <img src="http://ictdatto.com/forums/cron.php?rand=29313" alt="" width="1" height="1" border="0" /> or your scheduled tasks will cease to function -->Xây 
+                  dựng &amp; Phát triển bởi những người con Đất Tổ 
+                  <BR><BR></DIV></DIV></FORM>
+                  <SCRIPT type=text/javascript>
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</SCRIPT>
+                </TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center 
+            bgColor=#191919 border=0>
+              <TBODY>
+              <TR vAlign=center align=left>
+                <TD width=57 height=41><A href="javascript:scroll(0,0);"><IMG 
+                  height=41 alt="" 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/footer_ls.gif" 
+                  width=57 border=0></A></TD>
+                <TD style="BACKGROUND-IMAGE: url(titanium/misc/footer_x.gif)" 
+                width="100%" height=41><IMG height=41 alt="" 
+                  src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/clear(1).gif" 
+                  width="100%"></TD></TR></TBODY></TABLE><!-- /content area table --><!-- / eXtremepixels.com vB 3.6.x release --></TD></TR></TBODY></TABLE></TD>
+    <TD style="BACKGROUND-IMAGE: url(titanium/misc/side_rs.gif)" vAlign=top 
+    align=left width=15><IMG alt="" 
+      src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/side_rs.gif" 
+      width=15></TD></TR></TBODY></TABLE><LINK 
+href="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/SyntaxHighlighter.css" 
+type=text/css rel=stylesheet></LINK>
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shCore.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushCpp.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushCSharp.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushCss.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushDelphi.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushJava.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushJScript.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushPhp.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushPython.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushRuby.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushSql.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushVb.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="Lập%20trình%20lồng%202%20bức%20ảnh%20vào%20nhau%20-%20Diễn%20đàn%20Công%20nghệ%20Đất%20Tổ_files/shBrushXml.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=javascript>
+window.onload = function () 
+{    
+dp.SyntaxHighlighter.ClipboardSwf = 'js/clipboard.swf';    
+dp.SyntaxHighlighter.HighlightAll('code', true, true, false, 1, false);
+}
+</SCRIPT>
+</SCRIPT><!-- END TEMPLATE: footer --><!-- temp -->
+<DIV style="DISPLAY: none"><!-- thread rate --><!-- thread ratings form here --><!-- / thread rate --></DIV><!-- END TEMPLATE: SHOWTHREAD --></BODY></HTML>

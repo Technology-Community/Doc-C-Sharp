@@ -1,0 +1,16 @@
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\ResolveAssemblyReference.cache
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.Form1.resources
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.Properties.Resources.resources
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.csproj.GenerateResource.Cache
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\bin\Debug\Bai1_UngdungB.exe
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\bin\Debug\Bai1_UngdungB.pdb
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.exe
+D:\My docuiments\Visual Studio 2008\Projects\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.pdb
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.exe
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.pdb
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\bin\Debug\Bai1_UngdungB.exe
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\bin\Debug\Bai1_UngdungB.pdb
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\ResolveAssemblyReference.cache
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.Form1.resources
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.Properties.Resources.resources
+D:\New Folder\Bai1_UngdungB\Bai1_UngdungB\obj\Debug\Bai1_UngdungB.csproj.GenerateResource.Cache

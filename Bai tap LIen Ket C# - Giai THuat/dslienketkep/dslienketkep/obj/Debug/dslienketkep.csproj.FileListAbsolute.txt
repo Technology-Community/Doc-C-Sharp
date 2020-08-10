@@ -1,0 +1,9 @@
+E:\Vip Vl\C####\cung la C#\dslienketkep\dslienketkep\obj\Debug\dslienketkep.exe
+E:\Vip Vl\C####\cung la C#\dslienketkep\dslienketkep\obj\Debug\dslienketkep.pdb
+E:\Vip Vl\C####\cung la C#\dslienketkep\dslienketkep\bin\Debug\dslienketkep.exe
+E:\Vip Vl\C####\cung la C#\dslienketkep\dslienketkep\bin\Debug\dslienketkep.pdb
+E:\Vip Vl\C####\cung la C#\dslienketkep\dslienketkep\obj\Debug\ResolveAssemblyReference.cache
+E:\VipVl\C####\cung la C#\dslienketkep\dslienketkep\obj\Debug\dslienketkep.exe
+E:\VipVl\C####\cung la C#\dslienketkep\dslienketkep\obj\Debug\dslienketkep.pdb
+F:\VipVl\C####\cung la C#\dslienketkep\dslienketkep\obj\Debug\dslienketkep.exe
+F:\VipVl\C####\cung la C#\dslienketkep\dslienketkep\obj\Debug\dslienketkep.pdb

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="lkvong">
+</Property><Property Name="Solution File" Value="E:\Vip Vl\C####\cung la C#\lkvong\lkvong.sln">
+</Property><Property Name="User Options File" Value="E:\Vip Vl\C####\cung la C#\lkvong\lkvong.suo">
+</Property><Property Name="Date" Value="Tuesday, December 02, 2008">
+</Property><Property Name="Time" Value="21:39 CuongHam">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="lkvong.sln" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\lkvong\Backup\lkvong.sln">
+</Event><Event ErrorLevel="0" Project="" Source="lkvong.suo" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\lkvong\Backup\lkvong.suo">
+</Event><Event ErrorLevel="0" Project="lkvong" Source="lkvong\lkvong.csproj" Description="Project file successfully backed up as E:\Vip Vl\C####\cung la C#\lkvong\Backup\lkvong\lkvong.csproj">
+</Event><Event ErrorLevel="0" Project="lkvong" Source="lkvong\Program.cs" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\lkvong\Backup\lkvong\Program.cs">
+</Event><Event ErrorLevel="0" Project="lkvong" Source="lkvong\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Vip Vl\C####\cung la C#\lkvong\Backup\lkvong\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="lkvong" Source="lkvong\lkvong.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="lkvong" Source="lkvong\lkvong.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="lkvong.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="lkvong.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="lkvong" Source="lkvong\lkvong.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

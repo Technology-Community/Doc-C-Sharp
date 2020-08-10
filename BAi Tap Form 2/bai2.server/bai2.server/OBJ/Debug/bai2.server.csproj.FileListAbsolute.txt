@@ -1,0 +1,7 @@
+D:\Quyendung\bai2.server\bai2.server\obj\Debug\ResolveAssemblyReference.cache
+D:\Quyendung\bai2.server\bai2.server\bin\Debug\bai2.server.exe
+D:\Quyendung\bai2.server\bai2.server\bin\Debug\bai2.server.pdb
+D:\Quyendung\bai2.server\bai2.server\obj\Debug\bai2.server.exe
+D:\Quyendung\bai2.server\bai2.server\obj\Debug\bai2.server.pdb
+D:\New Folder\bai2.server\bai2.server\obj\Debug\bai2.server.exe
+D:\New Folder\bai2.server\bai2.server\obj\Debug\bai2.server.pdb

@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DirectoryManagement.Explorer.resources
+obj\Debug\DirectoryManagement.Properties.Resources.resources
+obj\Debug\DirectoryManagement.csproj.GenerateResource.Cache
+bin\Debug\DirectoryManagement.exe
+bin\Debug\DirectoryManagement.pdb
+obj\Debug\DirectoryManagement.exe
+obj\Debug\DirectoryManagement.pdb
+obj\Debug\DirectoryManagement.About.resources
